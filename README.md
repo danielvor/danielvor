@@ -1,10 +1,10 @@
 <!-- Header -->
 <div>
-    <a target='_blank' href="https://dev-daniel.herokuapp.com">
+    <a target='_blank' href="https://daniel-code.herokuapp.com">
         <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"></a>
-    <a target='_blank' href="https://linkedin.com/in/daniel-oli">
+    <a target='_blank' href="https://linkedin.com/in/daniel-rodrigues-developer">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-    <a target='_blank' href="https://twitter.com/DevDaniiel">
+    <a target='_blank' href="https://twitter.com/danielverydumb">
         <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
     <a target='_blank' href="https://wa.me/5511948222885">
         <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
