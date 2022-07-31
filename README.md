@@ -32,7 +32,7 @@
         <tr>
             <h2 align="left">Skills</h2>
             <td align="left">Knowledge in:</td>
-            <td align="left">Currently studying:</td>
+            <td align="left">Next Steps:</td>
             <td align="left">Interest in learning:</td>
         </tr>
         <tr>
