@@ -21,7 +21,6 @@
             <h2 align="left">Skills</h2>
             <td align="left">Knowledge in:</td>
             <td align="left">Next Steps:</td>
-            <td align="left">Interest in learning:</td>
         </tr>
         <tr>
             <td align="left">
@@ -38,14 +37,6 @@
                 <img title="NodeJs" alt="NodeJs" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
                 <img title="React" alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
                 <img title="Postgresql" alt="Postgresql" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-                </a>
-            </td>
-            <td align="left">
-                <a href="#">
-                <img title="C#" alt="C#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">              
-                <img title="C++" alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-                <img title="Java" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
-                <img title="PHP" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
                 </a>
             </td>
         </tr>
