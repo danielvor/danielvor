@@ -1,18 +1,17 @@
 <!-- Greetings Section -->
 <div align="left">
-    <h2>Greetings My Friend !</h2>    
-    <h4>I don't really know how u got here, but I will try to show a little bit about myself for you.</h4>
-</div>
-    
+    <h1>Greetings My Friend !</h1>    
+    <h4>I really don't know how you got here, but I'll try to talk a little about myself.</h4><br>
+</div>    
 
 <!-- Information section -->
 <div align="left">
-    <h2>Public information</h2>
-    <h4>I'm a Web Developer student, focusing on Back-End.</h4><br>
-    <h4>I'm 26 years old and I currently live in São Paulo SP. I don't have a university yet.</h4>
+    <h2>About me</h2>
+    <h4>I'm a Web Developer student, focusing on Back-End.</h4>
+    <h4>I'm 26 years old and I currently live in São Paulo - Brazil. </h4>
     <h4>My favorite language is Python and i will become a Python/Javascript Expert</h4>
-</div>
-    
+    <h5>I'm not in college yet, but I'm looking for one.</h5><br><br>
+</div>    
 
 <!-- Skills section -->
 <div align="left">
