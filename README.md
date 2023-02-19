@@ -6,9 +6,9 @@
 <!-- Information section -->
 <div align="left">
     <h2>About me</h2>
-    <h4>I'm a Web Developer student, focusing on Back-End.</h4>
+    <h4>I'm a Web Developer student, focusing on http and data science solutions.</h4>
     <h4>I'm 26 years old and I currently live in São Paulo - Brazil. </h4>
-    <h4>My favorite language is Python and i will become a Python/Javascript Expert</h4>
+    <h4>My favorite language is Python, second language is JavaScript and I will keep improving my coding skills forever.</h4>
     <h5>I'm not in college yet, but I'm looking for one.</h5><br><br>
 </div>    
 
