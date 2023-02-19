@@ -1,7 +1,6 @@
 <!-- Greetings Section -->
 <div align="left">
-    <h1>Greetings My Friend !</h1>    
-    <h4>I really don't know how you got here, but I'll try to talk a little about myself.</h4><br>
+    <h1>Greetings My Friend !</h1> 
 </div>    
 
 <!-- Information section -->
