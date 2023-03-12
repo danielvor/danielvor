@@ -1,13 +1,25 @@
-<!-- Greetings Section -->
-<div align="left">
-    <h1>Greetings My Friend !</h1> 
-</div>    
+## Hi, there! 👋
 
-<!-- Information section -->
-<div align="left">
-    <h2>About me</h2>
-    <h5>I'm a Web Developer student, focusing on http flows.</h5>
-    <h5>I'm 26 years old and I currently live in São Paulo - Brazil. </h5>
-    <h5>My favorite languages is Python and Javascript. I will keep improving my coding skills forever.</h5>
-    <h5>Studying analysis and systems development at SPTECH.</h5><br><br>
-</div> 
+```yaml
+let bio: {
+    name: "Daniel Victor Oliveira Rodrigues",
+    nickname: "Duno",
+    age: 27,
+    education: ["Análise e Desenvolvimento de Sistemas", "SPTECH"],
+    location: ["São Paulo", "Brazil"],
+    code: "Python", "Node.js",
+    professional: "Web Developer"
+    }
+```
+<!-- 
+
+- 🔭 I’m currently free agent 
+- 🌱 I’m currently learning Systems Development Analyst
+- 👯 I’m looking to collaborate on Web and IoT Projects
+- 🤔 I’m looking for help with Design Systens and HTTP flows
+- 📫 How to reach me: [twitter](https://twitter.com/danielvor_)
+- 😄 Pronouns: DANI and DUNO !
+- ⚡ Fun fact: I'm currently studying on [São Paulo Tech School](https://www.sptech.school/)
+
+-->
+    
