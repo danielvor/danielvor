@@ -5,10 +5,9 @@ let bio: {
     name: "Daniel Victor Oliveira Rodrigues",
     nickname: "Duno",
     age: 27,
-    education: ["Análise e Desenvolvimento de Sistemas", "SPTECH"],
+    college: ["Análise e Desenvolvimento de Sistemas", "SPTECH"],
     location: ["São Paulo", "Brazil"],
-    code: "Python", "Node.js",
-    professional: "Web Developer"
+    work: null
     }
 ```
 <!-- 
