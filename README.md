@@ -1,7 +1,7 @@
 ## Hi, there! 👋
 
 ```yaml
-let bio: {
+var bio = {
     name: "Daniel Victor Oliveira Rodrigues",
     nickname: "Duno",
     age: 27,
