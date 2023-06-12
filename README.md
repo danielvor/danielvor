@@ -2,23 +2,20 @@
 
 ```yaml
 const bio = {
-    name: "Daniel Victor Oliveira Rodrigues",
-    nickname: "Duno",
+    name: "Daniel Victor de Oliveira Rodrigues",
+    nickname: "duno",
     age: 27,
-    college: ["Análise e Desenvolvimento de Sistemas", "SPTECH"],
-    location: ["São Paulo", "Brazil"],
-    work: null
+    location: ["São Paulo - Brasil"]
     }
 ```
-<!-- 
+
 
 - 🔭 I’m currently free agent 
-- 🌱 I’m currently learning Systems Development Analyst
-- 👯 I’m looking to collaborate on Web and IoT Projects
-- 🤔 I’m looking for help with Design Systens and HTTP flows
+- ⚡ Fun fact: I'm currently studying at [São Paulo Tech School](https://www.sptech.school/)
+- 👯 I’m looking to collaborate in Web and IoT Projects
+- 🤔 I’m looking for help with Design Systems
 - 📫 How to reach me: [twitter](https://twitter.com/danielvor_)
-- 😄 Pronouns: DANI and DUNO !
-- ⚡ Fun fact: I'm currently studying on [São Paulo Tech School](https://www.sptech.school/)
 
--->
+
+
     
