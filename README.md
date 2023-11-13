@@ -10,7 +10,7 @@ const bio = {
 ```
 #
 
-Sou Desenvolvedor BackEnd Júnior, cursando Desenvolvimento de Software no Fatec Itaquera, mergulhando em algoritmos, programação e estruturas de dados em Python, JavaScript, C e C#.<br>
+Sou Desenvolvedor BackEnd Júnior, cursando Desenvolvimento de Software no Fatec Itaquera, mergulhando em algoritmos, programação e estruturas de dados em Python, JavaScript, C e C++.<br>
 
 Já comecei a colocar meus conhecimentos em prática em projetos envolvendo Flask, Express, Django, React e MySQL.
 <br>
