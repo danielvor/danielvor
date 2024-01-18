@@ -10,11 +10,13 @@ const bio = {
 ```
 #
 
-Sou Desenvolvedor BackEnd Júnior, cursando Desenvolvimento de Software no Fatec Itaquera, mergulhando em algoritmos, estruturas de dados e programação com Python, JavaScript e C/C++.<br>
+Estou cursando Desenvolvimento de Software na Fatec Itaquera, mergulhando em algoritmos, estruturas de dados e programação com Python, JavaScript e C/C++. Explorei tecnologias como Flask, Express.js, Django, Figma, Next.js, MySQL, MongoDB e outros. <br>
 
-Já comecei a colocar meus conhecimentos em prática usando tecnologias como Flask, Express, Django, Figma, React e MySQL. Também estou explorando ferramentas como Azure, Heroku, Trello, Jira, Slack e outros com minha equipe de de estudos.<br>
+Também estou aprendendo sobre matérias, meio ambiente e sustentabilidade  no curso técnico em Química da ETEC Tiquatira.<br>
 
-Quero trabalhar como Desenvolvedor de Software o mais rápido possível ! <br>
+Além disso, sou Customer Experience na Atento.<br>
+
+Tenho vontade de aprender e pressa para trabalhar!
 
 #
 
