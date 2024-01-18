@@ -16,7 +16,9 @@ Também estou aprendendo sobre matérias, meio ambiente e sustentabilidade  no c
 
 Além disso, sou Customer Experience na Atento.<br>
 
-Tenho vontade de aprender e pressa para trabalhar!
+Last but not least, matriculado na 'ONE - Oracle Next Education' parceria de Alura + Oracle na formação de Inovação, Gestão & Tecnologia.<br>
+
+Vontade de aprender e pressa para trabalhar!
 
 #
 
