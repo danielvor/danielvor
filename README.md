@@ -2,9 +2,9 @@
 
 ```yaml
 const bio = {
-    name: "Daniel V.O. Rodrigues",
+    name: "Daniel Victor de Oliveira Rodrigues",
     nickname: "duno",
-    age: 25,
+    age: 27,
     location: "São Paulo - SP - Brasil"
     }
 ```
