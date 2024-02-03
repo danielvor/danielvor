@@ -10,15 +10,13 @@ const bio = {
 ```
 #
 
-Estou cursando Desenvolvimento de Software na Fatec Itaquera, mergulhando em algoritmos, estruturas de dados e programação com Python, JavaScript e C/C++. Explorei tecnologias como Flask, Express.js, Django, Figma, Next.js, MySQL, MongoDB e outros. <br>
+Estou cursando 'Desenvolvimento de Software Multiplataforma' na Fatec Itaquera, mergulhando em algoritmos e programação em Python, JavaScript e C/C++ explorando Flask, Express.js, Django, Figma, Next.js, MySQL, MongoDB e outros. <br>
 
-Também estou aprendendo sobre matérias, meio ambiente e sustentabilidade  no curso técnico em Química da ETEC Tiquatira.<br>
+Também estou no curso técnico em Química da ETEC Tiquatira.<br>
 
-Além disso, sou Customer Experience na Atento.<br>
+Trabalho como Customer Experience do Banco Pan na Atento.<br>
 
-Last but not least, matriculado na 'ONE - Oracle Next Education' parceria de Alura + Oracle na formação de Inovação, Gestão & Tecnologia.<br>
-
-Vontade de aprender e pressa para trabalhar!
+Last but not least, aluno na 'ONE - Oracle Next Education' Oracle + Alura. - Vontade de aprender e pressa para trabalhar! <br>
 
 #
 
