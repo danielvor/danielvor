@@ -9,9 +9,7 @@ const bio = {
     "nickname": "Duno",
     "age": 27,
     "location": "São Paulo - SP - Brasil"
-    "Education": {
-        "higher": "Software Development"
-    },
+    "Education": "Multiplataform Software Development - Fatec Itaquera",
     "Working_at": ""
 }
 ```
