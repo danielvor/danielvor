@@ -10,8 +10,7 @@ const bio = {
     "age": 27,
     "location": "São Paulo - SP - Brasil"
     "Education": {
-        "higher": "Software Development",
-        "technical": "Chemistry"
+        "higher": "Software Development"
     },
     "Working_at": ""
 }
@@ -20,7 +19,6 @@ const bio = {
 <!-- Information section -->
 <div align="left">
     <h2>Public information</h2>
-    - 🔭 Software and Chemistry Engineering Student.<br>
     - 👀 27 years old and I currently live in São Paulo SP.<br>
     - ⚡ Focused on JavaScript and Python. Looking at artificial intelligence and sustainability.<br>
     - 💞️ Like meeting new places!
@@ -28,7 +26,7 @@ const bio = {
 <br>
 <!-- Socials -->
 <div>    
-    <a target='_blank' href="https://danielvor.tech">
+    <a target='_blank' href="https://danielvor.github.com">
         <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139"></a>
     <a target='_blank' href="https://linkedin.com/in/danielvor">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
