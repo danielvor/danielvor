@@ -18,8 +18,7 @@ const bio = {
 <div align="left">
     <h2>Public information</h2>
     - 👀 27 years old and I currently live in São Paulo SP.<br>
-    - ⚡ Focused on JavaScript and Python. Looking at artificial intelligence and sustainability.<br>
-    - 💞️ Like meeting new places!
+    - ⚡ Focused on Go, PHP, JavaScript and Python.<br>
 </div>
 <br>
 <!-- Socials -->
