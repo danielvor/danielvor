@@ -1,0 +1,9 @@
+{
+    "appId": "application-0-jlpnnge",
+    "appUrl": "https://services.cloud.mongodb.com/groups/64bb8d2f65f58476afb6adbb/apps/66bfd1446cead78746979e9d",
+    "baseUrl": "https://services.cloud.mongodb.com",
+    "clientApiBaseUrl": "https://us-east-1.aws.services.cloud.mongodb.com",
+    "dataApiBaseUrl": "https://us-east-1.aws.data.mongodb-api.com",
+    "dataExplorerLink": "https://cloud.mongodb.com/links/64bb8d2f65f58476afb6adbb/explorer/Cluster0/database/collection/find",
+    "dataSourceName": "mongodb-atlas"
+}
