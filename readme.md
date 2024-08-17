@@ -6,7 +6,7 @@ Meu nome é Daniel Rodrigues, sou Tecnólogo em Desenvolvimento de Software Mult
 - 🌱 Atualmente estou aprendendo Python, Java, JavaScript, HTML, CSS e SQL.
 - 📚 Estou em busca de conhecimento e experiência na área de desenvolvimento de software.
 - 🎯 Objetivo: me tornar um desenvolvedor Full Stack.
-- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/daniel-rodrigues-7b1b3b1b3/)
+- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/danielvor/)
 
 ### Estatísticas:
 ![Estatísticas do GitHub de Daniel Rodrigues](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=dark)
