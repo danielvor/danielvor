@@ -1,13 +1,17 @@
-from fastapi import APIRouter, Request, HTTPException
-from app.database import get_biografia
+from fastapi import FastAPI
+from app.routes import router
 from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 
-router = APIRouter()
+app = FastAPI()
+
+# Configuração dos templates
 templates = Jinja2Templates(directory="templates")
 
-@router.get("/biografia")
-async def get_biografia_route(request: Request):
-    biografia = await get_biografia()
-    if biografia is None:
-        raise HTTPException(status_code=404, detail="Biografia não encontrada")
-    return templates.TemplateResponse("index.html", {"request": request, "biografia": biografia})
+# Incluindo as rotas
+app.include_router(router)
+
+# Rota raiz
+@app.get("/")
+async def read_root():
+    return {"message": "Bem-vindo à aplicação FastAPI!"}
