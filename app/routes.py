@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Request, HTTPException
-from database import get_biografia
+from .database import get_biografia
 from fastapi.templating import Jinja2Templates
 
 router = APIRouter()
