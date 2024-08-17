@@ -1,5 +1,5 @@
 import motor.motor_asyncio
-from app.models import Biografia
+from models import Biografia
 import os
 from dotenv import load_dotenv
 
