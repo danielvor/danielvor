@@ -7,21 +7,9 @@ Meu nome é Daniel Rodrigues, sou Tecnólogo em Desenvolvimento de Software Mult
 - 📚 Estou em busca de conhecimento e experiência na área de desenvolvimento de software.
 - 🎯 Objetivo: me tornar um desenvolvedor Full Stack.
 - 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/daniel-rodrigues-7b1b3b1b3/)
-- 📧 E-mail:
-
-### Linguagens e Ferramentas:
-- Python
-- Java
-- JavaScript
 
 ### Estatísticas:
 ![Estatísticas do GitHub de Daniel Rodrigues](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=dark)
 
 ### Linguagens mais utilizadas:
 ![Linguagens mais utilizadas por Daniel Rodrigues](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=dark)
-
-<!--
-**danielrodrigues1/danielrodrigues1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
-
-[⬆ Voltar ao topo](#fatac-de-itaquera---tecnólogo---desenvolvimento-de-software-multiplataforma)
