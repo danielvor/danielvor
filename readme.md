@@ -8,8 +8,5 @@ Meu nome é Daniel Rodrigues, sou Tecnólogo em Desenvolvimento de Software Mult
 - 🎯 Objetivo: me tornar um desenvolvedor Full Stack.
 - 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/danielvor/)
 
-### Estatísticas:
-![Estatísticas do GitHub de Daniel Rodrigues](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=dark)
-
 ### Linguagens mais utilizadas:
 ![Linguagens mais utilizadas por Daniel Rodrigues](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=dark)
