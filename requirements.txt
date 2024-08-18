@@ -1,1 +1,5 @@
-flask
+fastapi
+uvicorn
+motor
+python-dotenv
+jinja2
