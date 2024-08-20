@@ -1,6 +1,6 @@
 # Olá, seja bem-vindo(a) ao meu perfil! 👋
 
-Meu nome é Daniel Rodrigues, sou Tecnólogo em Desenvolvimento de Software Multiplataforma e atualmente estou cursando Análise e Desenvolvimento de Sistemas.
+Meu nome é Daniel Rodrigues, estou estudando Desenvolvimento de Software Multiplataforma na Fatec de Itaquera.
 
 ### Sobre mim:
 - 🌱 Atualmente estou aprendendo Python, Java, JavaScript, HTML, CSS e SQL.
