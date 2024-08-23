@@ -28,7 +28,7 @@ const Header: React.FC<{ profile: Profile | null }> = ({ profile }) => {
             </p>
 
             <p className="sm:mt-8 mt-2.5 text-[#10172A] sm:px-42  sm:leading-loose text-lg font-normal tracking-tighter">
-              I'm a <span className="font-semibold">fullstack developer</span>, 9 - 9 <span className="font-semibold">remote</span> worker, community builder, and a <span className="font-semibold">solo</span> traveller. I love to build <span className="font-semibold">apps</span> that solve real life problems.
+              I&apos;m a <span className="font-semibold">fullstack developer</span>, 9 - 9 <span className="font-semibold">remote</span> worker, community builder, and a <span className="font-semibold">solo</span> traveller. I love to build <span className="font-semibold">apps</span> that solve real life problems.
             </p>
           </div>
         </div>
