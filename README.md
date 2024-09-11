@@ -1,12 +1,9 @@
-# Olá, seja bem-vindo(a) ao meu perfil! 👋
+I am a 28-year-old proactive and collaborative software developer living in São Paulo (capital), where I live with my family. Driven by a passion for technology and the desire to simplify people's lives through innovative solutions, I constantly seek to improve my skills and knowledge.
 
-Meu nome é Daniel Rodrigues, estou estudando Desenvolvimento de Software Multiplataforma na Fatec de Itaquera.
-
-### Sobre mim:
-- 🌱 Atualmente estou aprendendo Python, Java, JavaScript, HTML, CSS e SQL.
-- 📚 Estou em busca de conhecimento e experiência na área de desenvolvimento de software.
-- 🎯 Objetivo: me tornar um desenvolvedor Full Stack.
-- 📫 Como me encontrar: [LinkedIn](https://www.linkedin.com/in/danielvor/)
+- 🌱 I am currently learning C++, Python, Java, and JavaScript.
+- 📚 Studying Software Engineering at 42 São Paulo || Multiplatform Software Development at Fatec Itaquera.
+- 🎯 My goal is to become a Senior Back End developer.
+- 📫 How to find me: [LinkedIn](https://www.linkedin.com/in/danielvor/)
 
 ### Linguagens mais utilizadas:
 ![Linguagens mais utilizadas por Daniel Rodrigues](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=dark)
