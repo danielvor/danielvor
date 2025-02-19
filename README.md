@@ -1,12 +1,9 @@
 ## Hi, I'm Daniel Rodrigues 👋
 
-- 🌱 I am currently learning Java, Go, Python, and Nodejs.
-- 📚 I am currently studying software development technology at Fatec de Itaquera
-- 💼 I am currently working as a fraud and risk analyst
-
-##
+I am a Backend Developer with experience in Node.js, Express, PostgreSQL and other technologies. In recent years, I have dedicated myself to studying Software Development, with a special focus on Back-End, where I found my true passion. My main objective is to create robust, scalable and high-performance systems, ensuring the efficiency and security of applications.
 
 [![Daniel's github stats](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <div style="display: inline_block"><br>
@@ -19,4 +16,3 @@
   <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
 </div>
 
-##
