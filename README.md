@@ -1,9 +1,22 @@
-I am a 28-year-old proactive and collaborative software developer living in São Paulo (capital), where I live with my family. Driven by a passion for technology and the desire to simplify people's lives through innovative solutions, I constantly seek to improve my skills and knowledge.
+## Hi, I'm Daniel Rodrigues 👋
 
-- 🌱 I am currently learning C++, Python, Java, and JavaScript.
-- 📚 Studying Software Engineering at 42 São Paulo || Multiplatform Software Development at Fatec Itaquera.
-- 🎯 My goal is to become a Senior Back End developer.
-- 📫 How to find me: [LinkedIn](https://www.linkedin.com/in/danielvor/)
+- 🌱 I am currently learning Java, Go, Python, and Nodejs.
+- 📚 I am currently studying software development technology at Fatec de Itaquera
+- 💼 I am currently working as a fraud and risk analyst
 
-### Linguagens mais utilizadas:
-![Linguagens mais utilizadas por Daniel Rodrigues](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=dark)
+##
+
+[![Daniel's github stats](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Daniel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Daniel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Daniel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Daniel-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
+  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
+</div>
+
+##
