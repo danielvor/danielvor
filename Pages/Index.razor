@@ -1,0 +1,18 @@
+@page "/"
+
+<h1>Welcome to My Blazor App!</h1>
+
+<p>This is the main page of the Blazor application.</p>
+
+<button @onclick="ShowMessage">Click me</button>
+
+<p>@message</p>
+
+@code {
+    private string message;
+
+    private void ShowMessage()
+    {
+        message = "Hello, Blazor!";
+    }
+}

@@ -1,18 +1,42 @@
 ## Hi, I'm Daniel Rodrigues 👋
 
-I am a Backend Developer with experience in Node.js, Express, PostgreSQL and other technologies. In recent years, I have dedicated myself to studying Software Development, with a special focus on Back-End, where I found my true passion. My main objective is to create robust, scalable and high-performance systems, ensuring the efficiency and security of applications.
+👋 Hello, I'm Daniel Rodrigues, a Back-End Developer based in São Paulo, Brazil. I'm currently studying Multiplatform Software Development at Fatec Itaquera and I'm passionate about algorithms, programming and data structures in Python, JavaScript, C and C#. I have practical experience in projects involving Django, Express and React, and I am currently exploring the wonders of FastAPI.
+
+🚀 I am committed to continuous learning and am expanding my knowledge of Data Analysis through the Google Career Certificates program, where I am exploring spreadsheets, SQL, R programming and Tableau.
+
+🌐 Check out my portfolio at [dunodaniel.github.io](https://dunodaniel.github.io) and feel free to get in touch via email: this.daniel@outlook.com.
+
+# Experience
+- Teleperformance: Customer Service
+- Atento Brasil: Technical Customer Service Support
+- Otis Elevator Co.: Elevator Maintenance Electromechanical
+
+# Academic education
+- Fatec Itaquera: Multiplatform Software Development, Software Engineering
+- ETEC Martin Luther King: Mechatronics Technician
+- ETEC Tiquatira: Chemistry Technician
+- Barão de Ramalho State School: High School
+
+# Contact
+- 📱 +5511948222885 (Mobile)
+- 📧 this.daniel@outlook.com
+
+# Main Skills
+- Customer Service
+- Computer maintenance
+- Technical documentation
+- Technical Problem Solving
+
+# Languages
+- English (Professional)
+
+# Certifications
+- Microsoft Learn AI Skills Challenge
+- Fundamentals of Technical Support
 
 [![Daniel's github stats](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Daniel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Daniel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Daniel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Daniel-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
-  <img align="center" alt="Daniel-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
-</div>
+
 
