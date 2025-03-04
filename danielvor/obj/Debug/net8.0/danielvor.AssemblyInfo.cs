@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("my-blazor-app")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("danielvor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2c25d04a305461ca15d98ccef823ed77eeea400")]
-[assembly: System.Reflection.AssemblyProductAttribute("my-blazor-app")]
-[assembly: System.Reflection.AssemblyTitleAttribute("my-blazor-app")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffd345a85a1b6a7001ef824733cd97788572b5f1")]
+[assembly: System.Reflection.AssemblyProductAttribute("danielvor")]
+[assembly: System.Reflection.AssemblyTitleAttribute("danielvor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

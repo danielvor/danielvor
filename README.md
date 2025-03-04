@@ -1,10 +1,8 @@
-## Hi, I'm Daniel Rodrigues 👋
-
 👋 Hello, I'm Daniel Rodrigues, a Back-End Developer based in São Paulo, Brazil. I'm currently studying Multiplatform Software Development at Fatec Itaquera and I'm passionate about algorithms, programming and data structures in Python, JavaScript, C and C#. I have practical experience in projects involving Django, Express and React, and I am currently exploring the wonders of FastAPI.
 
 🚀 I am committed to continuous learning and am expanding my knowledge of Data Analysis through the Google Career Certificates program, where I am exploring spreadsheets, SQL, R programming and Tableau.
 
-🌐 Check out my portfolio at [dunodaniel.github.io](https://dunodaniel.github.io) and feel free to get in touch via email: this.daniel@outlook.com.
+🌐 Check out my portfolio at [danielvor.azurewebsites.net](https://danielvor.azurewebsites.net) and feel free to get in touch via email: this.daniel@outlook.com.
 
 # Experience
 - Teleperformance: Customer Service
@@ -33,10 +31,3 @@
 # Certifications
 - Microsoft Learn AI Skills Challenge
 - Fundamentals of Technical Support
-
-[![Daniel's github stats](https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
