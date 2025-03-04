@@ -1,0 +1,261 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\danielvor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\danielvor.xojxhoydw0.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\lua.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\lua.ico"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\moon_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\moon_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\perfil.png",
+      "PackagePath": "staticwebassets\\assets\\img\\perfil.png"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\project1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\sol.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\sol.ico"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\img\\sun_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sun_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\js\\api.js",
+      "PackagePath": "staticwebassets\\assets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\assets\\pdf\\Daniel_Rodrigues_Resume.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\Daniel_Rodrigues_Resume.pdf"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\danielvor.css",
+      "PackagePath": "staticwebassets\\danielvor.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thisd\\OneDrive\\Documents\\GitHub\\danielvor\\danielvor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.danielvor.props",
+      "PackagePath": "build\\danielvor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.danielvor.props",
+      "PackagePath": "buildMultiTargeting\\danielvor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.danielvor.props",
+      "PackagePath": "buildTransitive\\danielvor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.danielvor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.danielvor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

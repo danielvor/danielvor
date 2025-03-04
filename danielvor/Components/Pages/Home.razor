@@ -1,7 +1,101 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Components.Web
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Daniel Rodrigues | Web Developer</PageTitle>
 
-<h1>Hello, world!</h1>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
-Welcome to your new app.
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="danielvor.css" />
+
+
+<header class="profile container">
+        <!-- Theme button -->
+
+        <img src="assets/img/sol.ico" alt="Sol do Soul Eater" class="change-theme" id="theme-button" />
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/perfil.png" alt="Foto de perfil do Daniel V.O. Rodrigues" />
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Daniel V.O. Rodrigues</h2>
+                <h3 class="profile__profession">Web Developer</h3>
+                <h5 class="profile__city">
+                    <i class="ri-map-pin-line" style="margin: 5px"></i> São Paulo - SP - Brasil
+                </h5>
+
+                <ul class="profile__social">
+                    <a href="https://github.com/dunodaniel" target="_blank" class="profile__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/danielvor/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://twitter.com/danielvor_" target="_blank" class="profile__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-title">🌐 Welcome to my Portfolio!</h3>
+                    <p class="profile__info-description">
+                        I'm Studying Software Development and Data Analysis.<br />
+                        I'm dive in Flask, Express, HTML, Css Js, NoSQL, Data Analysis, R and Streamlit. <br>
+                        I love challenges and I'm looking for opportunities that expand my horizons.
+                    </p>
+                    <h3 class="profile__info-title">Thanks ✌</h3>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a href="assets/pdf/Daniel_Rodrigues_Resume.pdf" class="button">Download CV
+                    <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://wa.me/5511948222885" target="_blank" class="button button__small button_gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="mailto:this.daiel@outlook.com" target="_blank" class="button button__small button_gray">
+                        <i class="ri-mail-send-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main" id="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button" href="#main">
+                    Projects
+                </button>
+            </ul>
+
+            <div class="filters__sections" id="projects_session">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid" data-content id="projects"></div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <div class="footer__copy">
+            Thank you for visiting and exploring my work. ✨</div>
+    </footer>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/api.js"></script>
