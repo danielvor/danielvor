@@ -1,7 +1,0 @@
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/danielvor
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/appsettings.Development.json
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/appsettings.json
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/danielvor.dll
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/danielvor.deps.json
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/danielvor.runtimeconfig.json
-/workspaces/danielvor/danielvor/bin/Release/net9.0/publish/danielvor.pdb
