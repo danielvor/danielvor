@@ -1228,13 +1228,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\danielvor.uxzg952siq.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8hYP9YHDZYwwqGbunFjLrh1RajZyrxXiNdiPsH3QMjE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228hYP9YHDZYwwqGbunFjLrh1RajZyrxXiNdiPsH3QMjE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 23:20:08 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228hYP9YHDZYwwqGbunFjLrh1RajZyrxXiNdiPsH3QMjE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 23:38:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/danielvor/danielvor.uxzg952siq.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\danielvor.uxzg952siq.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uxzg952siq"},{"Name":"integrity","Value":"sha256-8hYP9YHDZYwwqGbunFjLrh1RajZyrxXiNdiPsH3QMjE="},{"Name":"label","Value":"_content/danielvor/danielvor.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228hYP9YHDZYwwqGbunFjLrh1RajZyrxXiNdiPsH3QMjE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 23:20:08 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5760"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228hYP9YHDZYwwqGbunFjLrh1RajZyrxXiNdiPsH3QMjE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 23:38:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/danielvor/forms/contact.2y9qx17zbs.php">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\forms\contact.php'))</AssetFile>
