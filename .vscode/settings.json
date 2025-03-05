@@ -1,0 +1,5 @@
+{
+    "dotnet.defaultSolution": "danielvor.sln",
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "danielvor/bin/Release/net9.0/publish"
+}
