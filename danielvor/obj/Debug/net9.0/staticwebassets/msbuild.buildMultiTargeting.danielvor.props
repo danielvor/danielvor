@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\danielvor.props" />
-</Project>
