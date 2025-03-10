@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "x15IZn5Qm6zsn/fSUm1RdeOQSb6FhNPL6N+pi01XJL4=",
+  "Source": "danielvor.ApiService",
+  "BasePath": "_content/danielvor.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
