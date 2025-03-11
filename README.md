@@ -1,16 +1,24 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hello+there!;My+name+is+Daniel+Rodrigues)](https://git.io/typing-svg)
 
-📍 São Paulo, SP, Brazil  📞 +55 (11) 94822-2885 | 📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  🌐 [Portfolio](https://danielvor.azurewebsites.net) | 🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
+📍 São Paulo, SP, Brazil  
+📞 +55 (11) 94822-2885 | 📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  
+🌐 [Portfolio](https://danielvor.azurewebsites.net) | 🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
 
 ---
 
-### **Professional Title**  
-**Back-End Developer | ASP.NET Core (C#), Python (Django/Flask), Java (Spring Boot), Node.js | Passionate About Algorithms & Software Architecture**  
+### **About Me**  
+- I’m a Back-End Developer with a strong passion for building scalable and efficient systems. Currently, I’m deeply focused on mastering the .NET ecosystem.
+
+- While my primary focus is on .NET (C#) and ML, I also have experience with other technologies like Python (Django/Flask), Java (Spring Boot), and Node.js (Express, NestJS).
 
 ---
 
-### **Summary**  
-Back-End Developer with hands-on experience in modern technologies such as **ASP.NET Core (C#)**, **Django/Flask (Python)**, **Spring Boot (Java)**, and **Node.js (Express, NestJS)**. Currently pursuing a degree in **Multiplatform Software Development** at FATEC Itaquera, with a strong passion for algorithms, data structures, and scalable solutions. Combines technical expertise with customer support and problem-solving experience to deliver innovative and high-impact projects.  
+### **What I’m Focusing On**  
+- I’m Focusing On .NET Ecosystem to explore ASP.NET Core, Entity Framework, and ML.NET for building robust backend systems and integrating AI/ML capabilities.
+
+- Also learning IoT to develop applications using .NET IoT Libraries, Raspberry Pi, and Arduino for smart devices and automation.
+
+- As a student at Fatec Itaquera, I enjoy the benefits of the github student pack and Microsoft Azure for deploying and managing my applications. 
 
 ---
 
@@ -18,7 +26,7 @@ Back-End Developer with hands-on experience in modern technologies such as **ASP
 - **Back-End Development**:  
   - *Languages*: C#, Python, Java, JavaScript  
   - *Frameworks*: ASP.NET Core, Django, Flask, Spring Boot, Express.js, NestJS  
-  - *APIs*: REST, GraphQL, gRPC  
+  - *APIs*: REST, GraphQL, gRPC
   - *Authentication*: JWT, OAuth 2.0, OpenID Connect  
 
 - **Databases**:  
@@ -30,66 +38,31 @@ Back-End Developer with hands-on experience in modern technologies such as **ASP
   - Docker, Kubernetes, Git, CI/CD (GitHub Actions, Jenkins)  
   - *Cloud Platforms*: Azure, AWS, Google Cloud  
 
-- **Other Skills**:  
-  - Microservices Architecture, Message Brokers (RabbitMQ, Kafka)  
-  - Edge Computing, AI/ML Integration (ML.NET)  
+- **IoT & Hardware**:  
+  - Raspberry Pi, Arduino, .NET IoT Libraries  
+  - Protocols: MQTT, HTTP, WebSocket  
 
 ---
 
-### **Professional Experience**  
-
-#### **Teleperformance**  
-**Risk and Fraud Analyst**  
-*January 2025 – Present (3 months)*  
-- Managed data analysis for fraud detection and mitigation.  
-- Implemented technical solutions to optimize security processes.  
-
-#### **Samsung Electronics**  
-**Customer Experience Specialist**  
-*December 2024 – February 2025 (3 months)*  
-- Provided technical support for Samsung appliances, resolving customer issues and ensuring satisfaction.  
-- Delivered high-quality service, improving customer retention and experience.  
-
-#### **TIM Brasil**  
-**Customer Experience Representative**  
-*January 2020 – June 2023 (3 years 6 months)*  
-- Assisted TIM customers with technical support for router configurations and service orders.  
-- Resolved technical issues, improving user experience and customer loyalty.  
-
-#### **Otis Elevator Co.**  
-**Elevator Maintenance Technician**  
-*January 2016 – December 2020 (5 years)*  
-- Performed preventive and corrective maintenance on elevator systems.  
-- Diagnosed technical issues and ensured safe and efficient elevator operations.  
+### **Projects**  
+Here are some of the projects I’ve worked on:  
+- **[IoT Smart Home System](https://github.com/danielvor/iot-smart-home)**: A .NET-based IoT application for controlling smart home devices.  
+- **[E-Commerce API with ASP.NET Core](https://github.com/danielvor/ecommerce-api)**: A scalable backend for an e-commerce platform.  
+- **[Data Analytics Dashboard with Python](https://github.com/danielvor/data-dashboard)**: A Flask-based dashboard for visualizing data insights.  
 
 ---
 
 ### **Education**  
-
-#### **FATEC Itaquera**  
-**Technologist in Multiplatform Software Development**  
-*July 2023 – August 2026*  
-- Focus: Software Engineering, Systems Architecture, Algorithms.  
-
-#### **freeCodeCamp**  
-**Software Engineering Certification**  
-*January 2020*  
-
-#### **ETEC Martin Luther King**  
-**Technician in Mechatronics**  
-*August 2016 – August 2018*  
-- Projects in industrial automation and embedded systems.  
-
-#### **E.E. Barão de Ramalho**  
-**High School Diploma**  
-*January 2012 – December 2016*  
+- **FATEC Itaquera**: Technologist in Multiplatform Software Development (2023–2026)  
+- **freeCodeCamp**: C# Fundamentals with Microsoft (2025)  
+- **ETEC Martin Luther King**: Technician in Mechatronics (2016–2018)  
 
 ---
 
 ### **Certifications**  
+- **Microsoft Learn AI Skills Challenge**  
 - **Data Analytics**  
 - **Technical Support Fundamentals**  
-- **Endpoint Security**  
 
 ---
 
@@ -99,21 +72,9 @@ Back-End Developer with hands-on experience in modern technologies such as **ASP
 
 ---
 
-### **Highlights**  
-- **Soft Skills**: Technical problem-solving, customer service, clear documentation.  
-- **Interests**: Edge Computing, Machine Learning applied to backend, Open Source.  
-
----
-
-### **Portfolio**  
-🔗 [danielvor.azurewebsites.net](https://danielvor.azurewebsites.net)  
-
----
-
-<details open="">
-    <summary>
-    📔 GitHub Stats:
-    </summary>
+### **GitHub Stats**  
+<details open>
+    <summary>📔 GitHub Stats:</summary>
     <br>
     <p align="center">
         <a href="https://github.com/danielvor">
@@ -135,7 +96,18 @@ Back-End Developer with hands-on experience in modern technologies such as **ASP
         src="https://github-readme-streak-stats.herokuapp.com/?user=danielvor&theme=radical&border=7F3FBF&background=0D1117" alt="danielvor"/>
         <br><br>
         <a href="https://github.com/danielvor">
-            <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danielvor&theme=radical" alt="juliamuiruri4"/>
+            <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danielvor&theme=radical" alt="danielvor"/>
         </a>
     </p>
-    
+</details>
+
+---
+
+### **Let’s Connect!**  
+I’m always open to collaborating on interesting projects or discussing technology. Feel free to reach out:  
+📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
+
+---
+
+This version highlights your focus on **.NET** and **IoT**, while still acknowledging your broader skill set. It also includes a call-to-action for collaboration, making it more engaging for visitors! 🚀
