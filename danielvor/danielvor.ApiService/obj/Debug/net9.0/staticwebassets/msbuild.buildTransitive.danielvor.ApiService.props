@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/danielvor.ApiService.props" />
-</Project>
