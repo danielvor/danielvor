@@ -92,9 +92,6 @@ Here are some of the projects I’ve worked on:
             width="49.5%"/>
         </a>
         <br><br>
-        <img align="center" 
-        src="https://github-readme-streak-stats.herokuapp.com/?user=danielvor&theme=radical&border=7F3FBF&background=0D1117" alt="danielvor"/>
-        <br><br>
         <a href="https://github.com/danielvor">
             <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danielvor&theme=radical" alt="danielvor"/>
         </a>
@@ -110,4 +107,3 @@ I’m always open to collaborating on interesting projects or discussing technol
 
 ---
 
-This version highlights your focus on **.NET** and **IoT**, while still acknowledging your broader skill set. It also includes a call-to-action for collaboration, making it more engaging for visitors! 🚀
