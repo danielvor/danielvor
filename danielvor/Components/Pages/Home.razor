@@ -175,94 +175,115 @@
       </div>
 
     </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
+<!-- Portfolio Section -->
 <section id="portfolio" class="portfolio section light-background">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Repos</h2>
+        <h2>Portfolio</h2>
+        <p>Meus projetos públicos no GitHub. Confira abaixo meus principais repositórios e contribuições.</p>
     </div><!-- End Section Title -->
 
     @if (repos == null)
     {
-          <div class="container text-center">
-              <div class="spinner-border text-primary" role="status">
-                  <span class="visually-hidden">Loading...</span>
-              </div>
-          </div>
+        <div class="container text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Carregando...</span>
+            </div>
+        </div>
     }
     else if (!repos.Any())
     {
-          <div class="container text-center">
-              <p>No repositories found.</p>
-          </div>
+        <div class="container text-center">
+            <p>Nenhum repositório encontrado.</p>
+        </div>
     }
     else
     {
-          <div class="container">
+        <div class="container">
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+        @foreach (var repo in repos)
+        {
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-content h-100">
+                    <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="@repo.Name">
+                    <div class="portfolio-info">
+                        <!-- Nome do repositório -->
+                        <h4 style="font-size: 1.5rem; font-weight: bold;">@repo.Name</h4>
 
-              <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Descrição do repositório -->
+                        <p style="font-size: 1rem; color: #ffffff; margin-bottom: 1rem;">@repo.Description</p>
 
-                  @foreach (var repo in repos)
-                  {
-                        <div class="col-lg-4 col-md-6 portfolio-item">
-                            <div class="portfolio-content h-100">
-                                <div class="portfolio-info">
-                                    <h4>@repo.Name</h4>
-                                    <p>@repo.Description</p>
-                                    <div class="d-flex justify-content-between" style="display: inline-block;">
-                                        <a href="@repo.HtmlUrl" target="_blank" title="Ver no GitHub" class="details-link">
-                                            <i class="bi bi-github"></i>
-                                        </a>
-                                        @if (!string.IsNullOrEmpty(repo.Homepage))
-                                        {
-                                              <a href="@repo.Homepage" target="_blank" title="Ver demo" class="details-link">
-                                                  <i class="bi bi-box-arrow-up-right"></i>
-                                              </a>
-                                        }
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Links (GitHub e Homepage) -->
+                        <div class="d-flex justify-content-center align-items-center" style="gap: 20px; margin-bottom: 1rem;">
+                            <a href="@repo.HtmlUrl" target="_blank" title="Ver no GitHub" style="text-decoration: none;">
+                                <i class="bi bi-github" style="font-size:5rem; color: #ffffff;"></i>
+                            </a>
+                            @if (!string.IsNullOrEmpty(repo.Homepage))
+                            {
+                                <a href="@repo.Homepage" target="_blank" title="Ver demo" style="text-decoration: none;">
+                                    <i class="bi bi-box-arrow-up-right" style="font-size: 5rem; color: #ffffff;"></i>
+                                </a>
+                            }
                         </div>
-                  }
 
-              </div><!-- End Portfolio Container -->
-
-          </div>
+                        <!-- Estatísticas (estrelas, forks e data de atualização) -->
+                        <div class="mt-2" style="font-size: 2rem; color: #ffffff;">
+                            <span>
+                                <i class="bi bi-star-fill" style="font-size: 1rem; color: #ffc107;"></i> @repo.StargazersCount
+                            </span>
+                            <span class="ms-3">
+                                <i class="bi bi-diagram-2-fill" style="font-size: 1rem; color: #007bff;"></i> @repo.ForksCount
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div><!-- End Portfolio Container -->
+</div>
     }
 
 </section><!-- /Portfolio Section -->
 
 @code {
-      private List<GithubRepo>? repos;
+    private List<GithubRepo>? repos;
 
-      protected override async Task OnInitializedAsync()
-      {
-            try
-            {
-                  var client = new HttpClient();
-                  client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0");
-                  var response = await client.GetFromJsonAsync<List<GithubRepo>>("https://api.github.com/users/danielvor/repos");
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0");
+            var response = await client.GetFromJsonAsync<List<GithubRepo>>("https://api.github.com/users/danielvor/repos");
             
-                  if (response != null)
-                  {
-                        repos = response.ToList(); // Remove a filtragem de forks e ordenação
-                  }
-            }
-            catch
+            if (response != null)
             {
-                  // Tratar erro conforme necessário
+                repos = response
+                    @* .Where(r => !r.Fork) // Remove forks *@
+                    .OrderByDescending(r => r.StargazersCount)
+                    .ThenByDescending(r => r.UpdatedAt)
+                    .ToList();
             }
-      }
+        }
+        catch
+        {
+            // Tratar erro conforme necessário
+        }
+    }
 
-      public class GithubRepo
-      {
-            public string Name { get; set; } = string.Empty;
-            public string? Description { get; set; }
-            public string HtmlUrl { get; set; } = string.Empty;
-            public string? Homepage { get; set; }
-      }
+    public class GithubRepo
+    {
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public string HtmlUrl { get; set; } = string.Empty;
+        public string? Language { get; set; }
+        public int StargazersCount { get; set; }
+        public int ForksCount { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public string? Homepage { get; set; }
+        public bool Fork { get; set; }
+    }
 }
     @* <!-- Services Section -->
     <section id="services" class="services section">
