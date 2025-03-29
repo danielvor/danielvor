@@ -1,54 +1,56 @@
-# 👋 Olá, eu sou o Daniel Rodrigues!
+# 👋 Olá, eu sou o Daniel Rodrigues!  
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hello+there!;My+name+is+Daniel+Rodrigues)](https://git.io/typing-svg)
 
-📍 São Paulo, SP, Brazil  
+📍 São Paulo, SP, Brasil  
 📞 +55 (11) 94822-2885 | 📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  
 🌐 [Portfolio](https://danielvor.azurewebsites.net) | 🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
 
 ---
 
-## 🚀 Sobre mim
-Sou um desenvolvedor Back-End apaixonado por criar sistemas escaláveis e eficientes. Atualmente, estou aprofundando meus conhecimentos em **Java, Spring Boot, Python e Node.js**, com foco em arquitetura de software e microsserviços.
+## 🚀 Sobre mim  
 
-Tenho experiência no desenvolvimento de aplicações web e APIs REST utilizando **Spring Boot, Django, Express.js e FastAPI**. Além disso, estou sempre explorando novas tecnologias para melhorar minha stack.
+Sou um desenvolvedor Back-End com experiência em projetos acadêmicos e pessoais, focado no desenvolvimento de **APIs, microsserviços e sistemas escaláveis**. Tenho conhecimento em **Java (Spring Boot), Python (FastAPI/Django) e Node.js (NestJS/Express)**, além de boas práticas de arquitetura de software.  
 
----
+Atualmente, trabalho como **Analista de Fraude e Risco**, lidando diariamente com análise de dados e tomada de decisões estratégicas. Paralelamente, desenvolvo projetos que me permitem aplicar e aprimorar meus conhecimentos em desenvolvimento de software.  
 
-## 🎯 O que estou estudando
-- **Arquitetura de Software** → Microsserviços, SOLID, DDD e Clean Architecture.
-- **Back-End Avançado** → Java (Spring Boot), Python (FastAPI/Django), Node.js (NestJS/Express).
-- **Banco de Dados** → PostgreSQL, MongoDB e otimização de queries.
-- **DevOps e Cloud** → Docker, Kubernetes, AWS, CI/CD com GitHub Actions e Terraform.
-- **Segurança e Performance** → OWASP, autenticação JWT/OAuth 2.0 e otimização de APIs.
+Já participei do desenvolvimento de sistemas que envolvem **autenticação, integração com bancos de dados, mensageria com RabbitMQ e otimização de APIs**. Também estou sempre explorando novas tecnologias e aprimorando minha stack.  
 
 ---
 
-## 🛠️ Tecnologias que uso
-- **Linguagens:** Java, Python, JavaScript, TypeScript, C#
-- **Frameworks:** Spring Boot, Django, FastAPI, Express.js, NestJS, ASP.NET Core
-- **Banco de Dados:** PostgreSQL, MySQL, MongoDB
-- **DevOps & Cloud:** Docker, Kubernetes, AWS, GitHub Actions, Terraform
-- **Ferramentas:** Git, Postman, Redis, RabbitMQ, Kafka
+## 🎯 Tecnologias e Conhecimentos  
+- **Back-End:** Java (Spring Boot), Python (FastAPI/Django), Node.js (NestJS/Express)  
+- **Arquitetura:** SOLID, DDD, Clean Architecture, Microsserviços  
+- **Banco de Dados:** PostgreSQL, MySQL, MongoDB  
+- **DevOps & Cloud:** Docker, Kubernetes, AWS, CI/CD  
+- **Segurança:** JWT, OAuth 2.0, boas práticas OWASP  
 
 ---
 
-## 🎓 Formação Acadêmica
-- **FATEC Itaquera** → Desenvolvimento de Software Multiplataforma (2023–2026)
-- **ETEC Martin Luther King** → Técnico em Mecatrônica (2016–2018)
+## 🎓 Formação Acadêmica  
+- **FATEC Itaquera** → Desenvolvimento de Software Multiplataforma (2023–2026)  
+- **ETEC Martin Luther King** → Técnico em Mecatrônica (2016–2018)  
 
 ---
 
-## 🏆 Certificações
-- **Microsoft Learn AI Skills Challenge**
-- **Fundamentos de Suporte Técnico**
-- **Desenvolvimento Web Completo**
+## 🏆 Certificações e Cursos  
+- **Microsoft Learn AI Skills Challenge**  
+- **Fundamentos de Suporte Técnico**  
+- **Desenvolvimento Web Completo**  
 
 ---
 
-## 🌎 Idiomas
-- **Português**: Nativo
-- **Inglês**: Proficiência profissional
+## 🌎 Idiomas  
+- **Português**: Nativo  
+- **Inglês**: Proficiência profissional  
+
+---
+
+## 📬 Vamos conversar?  
+Estou sempre em busca de desafios e oportunidades para contribuir com projetos e equipes incríveis. Se quiser trocar uma ideia ou discutir uma oportunidade, será um prazer conversar!  
+
+📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
 
 ---
 
@@ -69,11 +71,3 @@ Tenho experiência no desenvolvimento de aplicações web e APIs REST utilizando
         </a>
     </p>
 </details>
-
----
-
-## 📬 Vamos conversar?
-Estou sempre aberto a colaborar em projetos interessantes ou discutir tecnologia! Entre em contato:
-📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
-
