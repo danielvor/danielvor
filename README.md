@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou o Daniel Rodrigues!  
+# 👋 Hi, I'm Daniel Rodrigues!
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hello+there!;My+name+is+Daniel+Rodrigues)](https://git.io/typing-svg)
 
@@ -8,53 +8,53 @@
 
 ---
 
-## 🚀 Sobre mim  
+## 🚀 About me
 
-Sou um desenvolvedor Back-End com experiência em projetos acadêmicos e pessoais, focado no desenvolvimento de **APIs, microsserviços e sistemas escaláveis**. Tenho conhecimento em **Java (Spring Boot), Python (FastAPI/Django) e Node.js (NestJS/Express)**, além de boas práticas de arquitetura de software.  
+I am a Back-End developer with experience in academic and personal projects, focused on developing **APIs, microservices and scalable systems**. I have knowledge of **Java (Spring Boot), Python (FastAPI/Django) and Node.js (NestJS/Express)**, as well as good software architecture practices.
 
-Atualmente, trabalho como **Analista de Fraude e Risco**, lidando diariamente com análise de dados e tomada de decisões estratégicas. Paralelamente, desenvolvo projetos que me permitem aplicar e aprimorar meus conhecimentos em desenvolvimento de software.  
+I currently work as a **Fraud and Risk Analyst**, dealing with data analysis and strategic decision-making on a daily basis. In parallel, I develop projects that allow me to apply and improve my knowledge in software development.
 
-Já participei do desenvolvimento de sistemas que envolvem **autenticação, integração com bancos de dados, mensageria com RabbitMQ e otimização de APIs**. Também estou sempre explorando novas tecnologias e aprimorando minha stack.  
-
----
-
-## 🎯 Tecnologias e Conhecimentos  
-- **Back-End:** Java (Spring Boot), Python (FastAPI/Django), Node.js (NestJS/Express)  
-- **Arquitetura:** SOLID, DDD, Clean Architecture, Microsserviços  
-- **Banco de Dados:** PostgreSQL, MySQL, MongoDB  
-- **DevOps & Cloud:** Docker, Kubernetes, AWS, CI/CD  
-- **Segurança:** JWT, OAuth 2.0, boas práticas OWASP  
+I have participated in the development of systems that involve **authentication, database integration, messaging with RabbitMQ and API optimization**. I am also always exploring new technologies and improving my stack.
 
 ---
 
-## 🎓 Formação Acadêmica  
-- **FATEC Itaquera** → Desenvolvimento de Software Multiplataforma (2023–2026)  
-- **ETEC Martin Luther King** → Técnico em Mecatrônica (2016–2018)  
+## 🎯 Technologies and Knowledge
+- **Back-End:** Java (Spring Boot), Python (FastAPI/Django), Node.js (NestJS/Express)
+- **Architecture:** SOLID, DDD, Clean Architecture, Microservices
+- **Database:** PostgreSQL, MySQL, MongoDB
+- **DevOps & Cloud:** Docker, Kubernetes, AWS, CI/CD
+- **Security:** JWT, OAuth 2.0, OWASP best practices
 
 ---
 
-## 🏆 Certificações e Cursos  
-- **Microsoft Learn AI Skills Challenge**  
-- **Fundamentos de Suporte Técnico**  
-- **Desenvolvimento Web Completo**  
+## 🎓 Academic Background
+- **FATEC Itaquera** → Multiplatform Software Development (2023–2026)
+- **ETEC Martin Luther King** → Mechatronics Technician (2016–2018)
 
 ---
 
-## 🌎 Idiomas  
-- **Português**: Nativo  
-- **Inglês**: Proficiência profissional  
+## 🏆 Certifications and Courses
+- **Microsoft Learn AI Skills Challenge**
+- **Technical Support Fundamentals**
+- **Full Web Development**
 
 ---
 
-## 📬 Vamos conversar?  
-Estou sempre em busca de desafios e oportunidades para contribuir com projetos e equipes incríveis. Se quiser trocar uma ideia ou discutir uma oportunidade, será um prazer conversar!  
+## 🌎 Languages ​​
+- **Portuguese**: Native
+- **English**: Professional Proficiency
+
+---
+
+## 📬 Let's talk?
+I'm always looking for challenges and opportunities to contribute to amazing projects and teams. If you want to exchange ideas or discuss an opportunity, I'd be happy to talk!
 
 📧 [this.daniel@outlook.com](mailto:this.daniel@outlook.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/danielvor)  
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 📊 GitHub Statistics
 <details open>
     <summary>📔 GitHub Stats:</summary>
     <br>
