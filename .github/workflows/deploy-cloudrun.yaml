@@ -9,7 +9,7 @@ env:
   # Definir variáveis de ambiente para o workflow
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} # Pega o ID do projeto do secret
   SERVICE_NAME: meu-portfolio-go # Nome que seu serviço Cloud Run terá (ex: meu-portfolio-go)
-  REGION: us-central1 # A região onde você quer implantar seu serviço Cloud Run
+  REGION: us-central1 # A região onde você quer implantar seu seu serviço Cloud Run
 
 jobs:
   deploy:
