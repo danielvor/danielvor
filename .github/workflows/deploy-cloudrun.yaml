@@ -63,7 +63,7 @@ jobs:
           service: ${{ env.SERVICE_NAME }} # O nome do seu serviço Cloud Run
           image: gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE_NAME }} # A imagem que será implantada
           region: ${{ env.REGION }} # A região do seu serviço
-          # Permite que seu serviço seja acessível publicamente sem autenticação
+          # Permitee que seu serviço seja acessível publicamente sem autenticação
           allow_unauthenticated: true
 
       - name: Show Deployed Service URL
