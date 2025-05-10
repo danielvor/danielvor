@@ -1,0 +1,22 @@
+# Binário Go
+/main
+
+# Módulos Go
+/go.mod
+/go.sum
+
+# Arquivos de cache do Go
+/.go/
+/pkg/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de IDE (VS Code, etc.)
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
