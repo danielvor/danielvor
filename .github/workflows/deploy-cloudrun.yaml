@@ -67,4 +67,4 @@ jobs:
           allow_unauthenticated: true
 
       - name: Show Deployed Service URL
-        run: echo "Service URL: ${{ steps.deploy.outputs.url }}"
+        run: echo "Service URL ${{ steps.deploy.outputs.url }}"
