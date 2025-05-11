@@ -1,33 +1,25 @@
 package main
 
 import (
-	"log"
-	"net/http"
-	"os" // Importar o pacote 'os' para acessar variáveis de ambiente
+    "github.com/gin-gonic/gin"
+    "os"
 )
 
 func main() {
-	// Cria um manipulador de arquivos estáticos para a pasta "static"
-	// Certifique-se que index.html, styles.css e scripts.js estejam dentro da pasta "static"
-	fs := http.FileServer(http.Dir("static"))
+    // Cria uma nova instância do Gin
+    r := gin.Default()
 
-	// Registra o manipulador para a raiz do site.
-	// StripPrefix é usado para remover o "/static/" da URL antes de buscar o arquivo no disco.
-	// Ex: requisição para "/styles.css" vai buscar "static/styles.css"
-	http.Handle("/", fs)
+    // Serve arquivos estáticos da pasta "static"
+    // Certifique-se de que a pasta "static" contém os arquivos necessários (ex.: index.html, styles.css, etc.)
+    r.Static("/", "./static")
 
-	// Obtém a porta da variável de ambiente PORT (necessário para Google Cloud Run/App Engine)
-	// Se a variável PORT não estiver definida, usa a porta 8080 como padrão
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
-	}
+    // Obtém a porta da variável de ambiente PORT (necessário para Google Cloud Run/App Engine)
+    // Se a variável PORT não estiver definida, usa a porta 8080 como padrão
+    port := os.Getenv("PORT")
+    if port == "" {
+        port = "8080"
+    }
 
-	log.Printf("Servidor Go rodando na porta :%s\n", port)
-	log.Printf("Acesse http://localhost:%s\n", port)
-
-	// Inicia o servidor HTTP na porta especificada
-	if err := http.ListenAndServe(":"+port, nil); err != nil {
-		log.Fatalf("Erro ao iniciar servidor: %v\n", err)
-	}
+    // Inicia o servidor na porta especificada
+    r.Run(":" + port)
 }
