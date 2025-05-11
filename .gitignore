@@ -2,7 +2,7 @@
 /main
 
 # Módulos Go
-/go.mod
+
 /go.sum
 
 # Arquivos de cache do Go
