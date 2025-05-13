@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <a href="#home" className="text-2xl font-bold gradient-text mb-4 inline-block">Daniel Victor</a>
             <p className="text-foreground/70 mb-6 max-w-md text-sm">
-              Desenvolvedor Back-End focado em criar soluções digitais robustas e escaláveis.
+              Desenvolvedor de Software focado em criar soluções digitais robustas e escaláveis.
             </p>
             <SocialLinks links={socialMediaLinks} />
           </div>

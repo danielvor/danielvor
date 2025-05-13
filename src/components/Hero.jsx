@@ -21,10 +21,10 @@ const Hero = () => {
             className="flex-1 text-center md:text-left"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Olá, eu sou <span className="gradient-text">Daniel Victor</span>
+              <span className="gradient-text">Daniel Victor de Oliveira Rodrigues</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/70 mb-8">
-              Desenvolvedor Back-End | Java, C#, Python, Node.js | Microserviços & Cloud
+              Desenvolvedor de Software focado em criar soluções digitais robustas e escaláveis.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
@@ -33,7 +33,7 @@ const Hero = () => {
                   Ver Projetos
                 </Button>
               </a>
-              <a href="#" download="CV-Daniel-Victor.pdf">
+              <a href="docs/Daniel Victor de Oliveira Rodrigues.pdf" download="CV-Daniel-Victor.pdf">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Baixar CV
                 </Button>
@@ -60,7 +60,7 @@ const Hero = () => {
             className="flex-1 relative"
           >
             <div className="relative w-full aspect-square max-w-md mx-auto">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 animate-pulse"></div>
+              <div className="absolute inset-0 rounded-full"></div>
               <img  
                 alt="Daniel Victor de Oliveira Rodrigues" 
                 className="w-full h-full object-cover rounded-full border-4 border-primary/20"

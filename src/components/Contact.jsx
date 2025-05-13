@@ -18,13 +18,13 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Entre em Contato</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-foreground/70 max-w-2xl mx-auto">
-            Tem um projeto em mente ou quer conversar sobre oportunidades? Entre em contato comigo!
+            Obrigado por visitar meu portfólio! Se você estiver interessado em discutir uma oportunidade de trabalho, colaboração ou apenas quiser conversar, não hesite em entrar em contato. Estou sempre aberto a novas ideias e parcerias.
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <ContactInfo />
-          <ContactForm />
+          {/* <ContactInfo />
+          <ContactForm /> */}
         </div>
       </div>
     </div>

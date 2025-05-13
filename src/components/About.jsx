@@ -32,7 +32,7 @@ const About = () => {
               <img  
                 alt="Daniel Victor de Oliveira Rodrigues" 
                 className="w-full h-auto rounded-lg object-cover aspect-[4/3]"
-               src="https://avatars.githubusercontent.com/u/69437610?v=4" />
+               src="imgs/danielvor-microsoft.jpg" />
             </div>
           </motion.div>
 
@@ -42,11 +42,18 @@ const About = () => {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-6">Desenvolvedor Back-End Apaixonado</h3>
+            <h3 className="text-2xl font-bold mb-6">Desenvolvedor de Software Apaixonado</h3>
             
             <p className="text-foreground/70 mb-6">
-              Desenvolvedor Backend com experiência em projetos acadêmicos e pessoais, focado no desenvolvimento de Web Apps, APIs, microsserviços e sistemas escaláveis. Proficiente em Java (Spring Boot), Python (FastAPI/Django) e Node.js (NestJS/Express), com forte entendimento das melhores práticas de arquitetura de software. Atualmente atuando como Analista de Fraude e Risco, com experiência em análise de dados e tomada de decisão estratégica. Apaixonado por explorar novas tecnologias.
+              Analista de Fraude e Risco em transição para a área de desenvolvimento de software.
             </p>
+            <p className="text-foreground/70 mb-6">
+              Tenho experiência acadêmica e profissional no desenvolvimento de Web Apps, APIs e sistemas escaláveis, com proficiência em Python, Java e Node.js. 
+            </p>
+            <p className="text-foreground/70 mb-6">
+              Conhecimento em padrões de arquitetura como MVC, SOA, Pipes and Filters, microsserviços e monolíticos. Apaixonado por tecnologia e por criar soluções robustas e escaláveis.
+            </p>
+            
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <div className="flex items-center gap-2">
@@ -55,11 +62,11 @@ const About = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Briefcase size={18} className="text-primary" />
-                <span>Desenvolvedor Back-End</span>
+                <span>Analista de Fraude e Risco</span>
               </div>
               <div className="flex items-center gap-2">
                 <GraduationCap size={18} className="text-primary" />
-                <span>Desenvolvimento de Software Multiplataforma - FATEC Itaquera (2023-2027)</span>
+                <span>Desenvolvimento de Software - FATEC Itaquera (2023-2027)</span>
               </div>
                <div className="flex items-center gap-2">
                 <GraduationCap size={18} className="text-primary" />

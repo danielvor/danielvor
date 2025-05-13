@@ -131,7 +131,7 @@ const Skills = () => {
           ))}
         </motion.div>
 
-        <h3 className="text-2xl font-bold mb-12 text-center md:text-left">Experiência Profissional</h3>
+        {/* <h3 className="text-2xl font-bold mb-12 text-center md:text-left">Experiência Profissional</h3>
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -164,7 +164,7 @@ const Skills = () => {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         <h3 className="text-2xl font-bold mb-8 text-center md:text-left">Certificações</h3>
         <motion.div 
