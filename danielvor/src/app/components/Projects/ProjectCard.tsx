@@ -44,17 +44,15 @@ export const ProjectCard = ({ projectData }: Props) => {
             className="flex items-center gap-x-4"
           >
             <a
-              target="_blank"
               href={projectData.repo}
               className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
               rel="noreferrer"
             >
               <Code2 />
             </a>
-            {projectData.url && (
+            {projectData.slug && (
               <a
-                target="_blank"
-                href={projectData.url}
+                href={projectData.slug}
                 className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
                 rel="noreferrer"
               >
@@ -66,17 +64,15 @@ export const ProjectCard = ({ projectData }: Props) => {
         <div className="absolute left-0 top-0 z-10 hidden h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100 md:flex">
           <nav className="flex items-center gap-x-4">
             <a
-              target="_blank"
               href={projectData.repo}
               className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
               rel="noreferrer"
             >
               <Code2 />
             </a>
-            {projectData.url && (
+            {projectData.slug && (
               <a
-                target="_blank"
-                href={projectData.url}
+                href={projectData.slug}
                 className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
                 rel="noreferrer"
               >

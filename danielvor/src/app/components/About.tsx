@@ -17,16 +17,12 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Prazer, um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.
-            Minha jornada começou com atendimento ao cliente, onde aprendi a ser analítico, organizado e proativo – qualidades essenciais para a resolução de problemas em código. 
+            Sou um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.            
+            Tenho experiências com atendimento ao cliente, aprendi a ser analítico, organizado e proativo.
           </p>
           <p>
-            Minha paixão por tecnologia me levou a explorar o desenvolvimento web, onde me destaquei em HTML, CSS e JavaScript. 
-            Atualmente, estou aprimorando minhas habilidades em React, TypeScript e Next.js, e tenho experiência com bancos de dados como MySQL e MongoDB.
-          </p>
-          <p>
-            Estou me aprofundando em Node.js, Python, Go, .NET e Java, e sou determinado e aprendo rápido. 
-            Almejo uma posição em uma empresa que me ofereça o ambiente ideal para aplicar minha paixão por tecnologia e minha dedicação para alcançar uma carreira de sucesso e longevidade.
+            Estou me aprofundando em Node.js, Python, Go, .NET e Java, sou determinado e aprendo rápido. 
+            Almejo uma empresa que me ofereça o ambiente ideal para aplicar minha paixão e dedicação por tecnologia.
           </p>
           <MotionDiv className="flex justify-start md:justify-center">
             <Link

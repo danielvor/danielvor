@@ -3,6 +3,7 @@
 import { useParams } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { projectsData, projectType } from '../utils/data'
+import { Header } from '../components/Header'
 
 export default function ApiTestPage() {
   const params = useParams()
@@ -114,6 +115,14 @@ export default function ApiTestPage() {
   if (!currentApi) return <p className="p-6 text-red-500">{message}</p>
 
   return (
+    <div className="min-h-screen bg-gray-50">
+    <Header />
+    <div className="bg-white shadow-md rounded-lg mt-6">
+      <div className="p-4 border-b">
+        <h1 className="text-2xl font-bold">{currentApi.name} API</h1>
+        <p className="text-sm text-gray-600">{currentApi.description}</p>
+      </div>
+    </div>    
     <div className="p-6 max-w-4xl mx-auto space-y-6">
       <h1 className="text-3xl font-bold">{currentApi.name} ({currentApi.language})</h1>
       <p className="text-sm text-gray-600">{currentApi.url}</p>
@@ -163,6 +172,7 @@ export default function ApiTestPage() {
           </ul>
         )}
       </section>
+    </div>
     </div>
   )
 }
