@@ -7,7 +7,7 @@ import Providers from './providers'
 const saira = Saira({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfólio | Daniel Victor de Oliveira Rodrigues',
+  title: 'Daniel Victor de Oliveira Rodrigues',
   description: 'Portfólio de Daniel Victor de Oliveira Rodrigues'
 }
 export default function RootLayout({

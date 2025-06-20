@@ -117,9 +117,9 @@ export default function ApiTestPage() {
   return (
     <div className="min-h-screen bg-gray-50">
     <Header />
-    <div className="bg-white shadow-md rounded-lg mt-6">
+    <div className="bg-white shadow-md rounded-lg">
       <div className="p-4 border-b">
-        <h1 className="text-2xl font-bold">{currentApi.name} API</h1>
+        <h1 className="text-2xl font-bold mt-6">{currentApi.name} API</h1>
         <p className="text-sm text-gray-600">{currentApi.description}</p>
       </div>
     </div>    

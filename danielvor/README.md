@@ -1,8 +1,13 @@
-Claro! Aqui está uma sugestão de descrição completa em primeira pessoa para o `README.md` do seu projeto de portfólio com teste de múltiplas APIs:
 
----
 
-# 🧩 Portfólio de APIs CRUD com MongoDB
+## 📖 Sobre Mim
+ Sou um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.            
+Tenho experiências com atendimento ao cliente, aprendi a ser analítico, organizado e proativo.
+Estou me aprofundando em Node.js, Python, Go, .NET e Java, sou determinado e aprendo rápido. 
+Almejo uma empresa que me ofereça o ambiente ideal para aplicar minha paixão e dedicação por tecnologia.
+
+
+## 🚀 Portfólio de APIs RESTful
 
 Este é um projeto pessoal que desenvolvi como desenvolvedor full stack, com o objetivo de praticar e demonstrar minha capacidade de construir e integrar diferentes APIs RESTful com base de dados MongoDB usando várias linguagens de programação e frameworks modernos.
 
@@ -15,7 +20,7 @@ As APIs foram implementadas em:
 * 🐍 **Python** com FastAPI + Beanie
 * 🟩 **Node.js** com Express + Mongoose
 * ☕ **Java** com Spring Boot
-* 🦫 **Go** com Gin
+* 🦠 **Go** com Gin
 * 🎯 **C#** com .NET Web API
 
 Cada uma delas possui as rotas de `GET`, `POST`, `PUT` e `DELETE` funcionando para gerenciar tarefas.
@@ -81,9 +86,3 @@ Se você tiver alguma dúvida, sugestão ou quiser discutir sobre o projeto, sin
 
 ## 📝 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🙏 Agradecimentos
-Agradeço a todos os desenvolvedores e comunidades que contribuíram com tutoriais, documentação e suporte para que eu pudesse aprender e implementar este projeto.
-Espero que este portfólio possa ser útil para outros desenvolvedores que desejam aprender mais sobre integração de APIs e desenvolvimento full stack. Fique à vontade para explorar, contribuir ou simplesmente se inspirar!
----
-
