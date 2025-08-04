@@ -13,8 +13,7 @@ export const Contact = () => {
         className="flex flex-col items-center gap-6"
       >
         <p className="max-w-2xl text-center text-lg">
-          Se você tiver dúvidas ou apenas gostaria de dizer olá, fique à vontade
-          para me enviar um email.
+          Quer saber mais sobre o que tenho feito? Sinta-se à vontade para explorar meus repositórios e se conectar comigo!
         </p>
         <MotionDiv
           initial={{ opacity: 0, x: 40 }}

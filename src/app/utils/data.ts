@@ -146,38 +146,6 @@ export const projectsData: projectType[] = [
 
 export const skillsData = [
   {
-    img: 'html5/html5-original.svg',
-    name: 'HTML'
-  },
-  {
-    img: 'css3/css3-original.svg',
-    name: 'CSS'
-  },
-  {
-    img: 'javascript/javascript-original.svg',
-    name: 'JavaScript'
-  },
-  {
-    img: 'sass/sass-original.svg',
-    name: 'Sass'
-  },
-  {
-    img: 'typescript/typescript-original.svg',
-    name: 'TypeScript'
-  },
-  {
-    img: 'react/react-original.svg',
-    name: 'React'
-  },
-  {
-    img: 'tailwindcss/tailwindcss-original.svg',
-    name: 'Tailwindcss'
-  },
-  {
-    img: 'nextjs/nextjs-original.svg',
-    name: 'Nextjs'
-  },
-  {
     img: 'nodejs/nodejs-original.svg',
     name: 'Node.js'
   },
@@ -186,11 +154,35 @@ export const skillsData = [
     name: 'Express'
   },
   {
+    img: 'python/python-original.svg',
+    name: 'Python'
+  },
+  {
+    img: 'java/java-original.svg',
+    name: 'Java'
+  },
+  {
+    img: 'csharp/csharp-original.svg',
+    name: 'C#'
+  },
+  {
     img: 'postgresql/postgresql-original.svg',
     name: 'PostgreSQL'
+  },
+  {
+    img: 'mongodb/mongodb-original.svg',
+    name: 'MongoDB'
+  },
+  {
+    img: 'docker/docker-original.svg',
+    name: 'Docker'
+  },
+  {
+    img: 'kubernetes/kubernetes-original.svg',
+    name: 'Kubernetes'
   },
   {
     img: 'git/git-original.svg',
     name: 'Git'
   }
-]
+];

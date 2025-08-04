@@ -1,88 +1,13 @@
+### Fala, pessoal! 👋 Sou o Danielvor.
 
+Sou um Desenvolvedor de Software em transição de carreira, com uma base sólida em programação e uma vontade enorme de aprender e construir. Tenho me dedicado a mergulhar no mundo do desenvolvimento web e estou em busca da minha primeira oportunidade na área.
 
-## 📖 Sobre Mim
- Sou um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.            
-Tenho experiências com atendimento ao cliente, aprendi a ser analítico, organizado e proativo.
-Estou me aprofundando em Node.js, Python, Go, .NET e Java, sou determinado e aprendo rápido. 
-Almejo uma empresa que me ofereça o ambiente ideal para aplicar minha paixão e dedicação por tecnologia.
+Atualmente, estou me aprofundando em:
+* **Back-End**: Python, Java, Node.js e C# (com .NET Core).
+* **Front-End**: Next.js.
+* **Bancos de Dados**: PostgreSQL, MySQL e MongoDB.
+* **Arquitetura**: MVC, Microsserviços e Monolíticos.
 
+Minha experiência anterior me ensinou a ter um olhar detalhista e a resolver problemas de forma eficaz, habilidades que agora aplico no meu código. Tenho orgulho dos meus projetos, como o meu portfólio, que usa APIs em diferentes linguagens, e uma API de e-commerce que construí do zero.
 
-## 🚀 Portfólio de APIs RESTful
-
-Este é um projeto pessoal que desenvolvi como desenvolvedor full stack, com o objetivo de praticar e demonstrar minha capacidade de construir e integrar diferentes APIs RESTful com base de dados MongoDB usando várias linguagens de programação e frameworks modernos.
-
-## 💡 Sobre o Projeto
-
-Criei este portfólio interativo com **Next.js (App Router)**, onde é possível testar, via interface web, 5 APIs CRUD diferentes que desenvolvi. Todas utilizam a mesma estrutura de dados no MongoDB (título e conteúdo de tarefas) e estão conectadas à mesma coleção `tasks` no banco de dados `todo_db`.
-
-As APIs foram implementadas em:
-
-* 🐍 **Python** com FastAPI + Beanie
-* 🟩 **Node.js** com Express + Mongoose
-* ☕ **Java** com Spring Boot
-* 🦠 **Go** com Gin
-* 🎯 **C#** com .NET Web API
-
-Cada uma delas possui as rotas de `GET`, `POST`, `PUT` e `DELETE` funcionando para gerenciar tarefas.
-
-## 🔍 Funcionalidades
-
-* Interface unificada para testar qualquer uma das APIs
-* Integração com MongoDB via Mongoose (no backend Node.js)
-* Criação, listagem, atualização e exclusão de tarefas
-* Slugs dinâmicos no Next.js (`/python`, `/go`, `/nodejs`, etc.)
-* Uso de Tailwind CSS para estilo simples e responsivo
-* Backend hospedado em serviços como Render e Railway
-* Código limpo, com mensagens de erro claras e feedbacks visuais
-
-## 🎯 Objetivo
-
-Meu principal objetivo com este projeto foi:
-
-* Aprender e comparar como diferentes linguagens/libraries implementam o mesmo tipo de API
-* Consolidar conhecimento em integração entre frontend (Next.js) e APIs externas
-* Construir um portfólio técnico funcional que posso evoluir e apresentar em processos seletivos
-
-## 🚀 Como usar
-
-1. Acesse o projeto rodando localmente (`npm run dev`)
-2. Navegue até `/go`, `/python`, `/nodejs`, etc.
-3. Crie, edite ou delete tarefas para testar a integração
-4. Veja a comunicação em tempo real com a API da linguagem escolhida
-
-## ⚙️ Tecnologias Utilizadas
-
-### Frontend
-
-* Next.js 14 (App Router)
-* Tailwind CSS
-* TypeScript
-
-### Backend (em múltiplas versões)
-
-* Node.js + Express + Mongoose
-* Python + FastAPI + Beanie
-* Go + Gin
-* Java + Spring Boot
-* C# + ASP.NET Core Web API
-
-### Banco de dados
-
-* MongoDB Atlas (cluster gratuito)
-
-## 📚 Aprendizados
-* Integração de frontend com múltiplas APIs
-* Comparação de implementações de APIs em diferentes linguagens
-* Melhoria na organização de código e estrutura de pastas
-* Uso de ferramentas modernas como Tailwind CSS e Next.js App Router
-* Prática com deploy em serviços como Render
-* Melhoria na experiência do usuário com feedbacks visuais
-* Resolução de problemas comuns em APIs RESTful
-
-## 📫 Contato
-Se você tiver alguma dúvida, sugestão ou quiser discutir sobre o projeto, sinta-se à vontade para entrar em contato comigo:
-* Email: oliveira0196@gmail.com
-* LinkedIn: [Daniel Oliveira](https://www.linkedin.com/in/danielvor)
-
-## 📝 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Quer saber mais sobre o que tenho feito? Sinta-se à vontade para explorar meus repositórios e se conectar comigo!

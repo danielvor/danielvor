@@ -17,12 +17,18 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Sou um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.            
-            Tenho experiências com atendimento ao cliente, aprendi a ser analítico, organizado e proativo.
+            Desenvolvedor de Software em transição de carreira, com experiência acadêmica e
+            autodidata no desenvolvimento de aplicações web robustas e escaláveis. Atualmente
+            cursando Análise e Desenvolvimento de Sistemas no Instituto Mineiro de Educação
+            Superior, com proficiência em Python, Java, Node.js e C#.
           </p>
           <p>
-            Estou me aprofundando em Node.js, Python, Go, .NET e Java, sou determinado e aprendo rápido. 
-            Almejo uma empresa que me ofereça o ambiente ideal para aplicar minha paixão e dedicação por tecnologia.
+            Possuo um forte entendimento
+            de lógica de programação, arquitetura de software, ferramentas de trabalho em equipe e metodologias
+            ágeis. Minha experiência profissional em atendimento ao cliente me proporcionou sólidas
+            habilidades em resolução de problemas, análise de dados e atenção aos detalhes. Busco
+            uma oportunidade para aplicar e aprimorar minhas habilidades em desenvolvimento de
+            software.
           </p>
           <MotionDiv className="flex justify-start md:justify-center">
             <Link
