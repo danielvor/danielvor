@@ -1,20 +1,15 @@
-### Fala, pessoal! 👋 Sou o Danielvor.
+Software developer in career transition, with academic experience and self-taught experience in developing robust and scalable web applications.
 
-Sou um Desenvolvedor de Software em transição de carreira, com experiência acadêmica e autodidata no desenvolvimento de aplicações web robustas e escaláveis. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no Instituto Mineiro de Educação Superior e sou proficiente em Python, Java, Node.js e C#.
+Currently studying Systems Analysis and Development at the Instituto Mineiro de Educação Superior, I am proficient in Python, Java, Node.js, and C#.
 
-Possuo um forte entendimento de lógica de programação, arquitetura de software (MVC, Microsserviços) e metodologias ágeis. Minha experiência profissional em atendimento ao cliente me proporcionou sólidas habilidades em resolução de problemas, análise de dados e atenção aos detalhes. Busco uma oportunidade para aplicar e aprimorar minhas habilidades em desenvolvimento de software.
+I have a strong understanding of programming logic, software architecture, teamwork tools, and agile methodologies.
 
-Atualmente, estou me aprofundando em:
+Currently, I am deepening my knowledge in:
 
-- **Back-End**: JavaScript (Node.js), Python, Java, C# (.NET Core)
-- **Front-End**: Next.js
-- **Bancos de Dados**: PostgreSQL, MySQL e MongoDB
-- **Arquitetura**: MVC, Microsserviços e Monolíticos
+Back-End: Python, Java, Node.js, and C# (with .NET Core). Front-End: Next.js. Databases: PostgreSQL, MySQL, and MongoDB. Architecture: MVC, Microservices, and Monolithic.
 
-Tenho orgulho dos meus projetos, como o meu portfólio, que usa APIs em diferentes linguagens, e uma API de e-commerce que construí do zero.
+Want to learn more about what I've been up to? Feel free to explore my repositories and connect with me!
 
-Quer saber mais sobre o que tenho feito? Sinta-se à vontade para explorar meus repositórios e se conectar comigo!
-
-  **LinkedIn:** [https://www.linkedin.com/in/danielvictorrodrigues/](https://www.google.com/search?q=https://www.linkedin.com/in/danielvictorrodrigues/)
-  **GitHub:** [https://github.com/DanielVOR](https://www.google.com/search?q=https://github.com/DanielVOR)
-  **Portfólio:** [https://danielvor.onrender.com](https://danielvor.onrender.com)
+- **LinkedIn:** [https://www.linkedin.com/in/danielvictorrodrigues/](https://www.google.com/search?q=https://www.linkedin.com/in/danielvictorrodrigues/)
+- **GitHub:** [https://github.com/DanielVOR](https://www.google.com/search?q=https://github.com/DanielVOR)
+- **Portfólio:** [https://danielvor.onrender.com](https://danielvor.onrender.com)
