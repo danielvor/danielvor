@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas com Go</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a56d4;
+            --secondary: #7209b7;
+            --success: #4cc9f0;
+            --danger: #f72585;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --border: #dee2e6;
+            --warning: #ff9e00;
+        }
+
+        body {
+            background-color: #f5f7fb;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            position: relative;
+        }
+
+        .home-btn {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .home-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-50%) scale(1.05);
+        }
+
+        header h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        .app-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .app-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .home-btn {
+                position: relative;
+                top: auto;
+                transform: none;
+                margin-bottom: 15px;
+                width: fit-content;
+            }
+        }
+
+        .form-container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            height: fit-content;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a08a0;
+            transform: translateY(-2px);
+        }
+
+        .btn-danger {
+            background-color: var(--danger);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background-color: #e11574;
+            transform: translateY(-2px);
+        }
+
+        .btn-success {
+            background-color: var(--success);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background-color: #3ab3d4;
+            transform: translateY(-2px);
+        }
+
+        .btn-warning {
+            background-color: var(--warning);
+            color: white;
+        }
+
+        .btn-warning:hover {
+            background-color: #e68a00;
+            transform: translateY(-2px);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .tasks-container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .tasks-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .tasks-header h2 {
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .search-box input {
+            width: 250px;
+        }
+
+        .server-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: var(--gray);
+            margin-top: 5px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--success);
+            animation: pulse 2s infinite;
+        }
+
+        .status-dot.waking {
+            background-color: var(--warning);
+        }
+
+        .status-dot.offline {
+            background-color: var(--danger);
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .task-list {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .task-item {
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+            background: white;
+        }
+
+        .task-item:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .task-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .task-title {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+
+        .task-content {
+            color: var(--gray);
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .task-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--gray);
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: var(--border);
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 6px;
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            transform: translateX(150%);
+            transition: transform 0.4s;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification.success {
+            background-color: var(--success);
+        }
+
+        .notification.error {
+            background-color: var(--danger);
+        }
+
+        .notification.warning {
+            background-color: var(--warning);
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .waking-message {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--warning);
+            font-weight: 600;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="home-btn" id="homeBtn">
+                <i class="fas fa-home"></i> Voltar para Home
+            </button>
+            <h1><i class="fas fa-tasks"></i> Gerenciador de Tarefas com Go</h1>
+            <p>Crie, edite e exclua suas tarefas de forma simples e rápida</p>
+        </header>
+
+        <div class="app-container">
+            <div class="form-container">
+                <h2><i class="fas fa-plus-circle"></i> Nova Tarefa</h2>
+                <form id="taskForm">
+                    <div class="form-group">
+                        <label for="title">Título</label>
+                        <input type="text" id="title" placeholder="Digite o título da tarefa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Descrição</label>
+                        <textarea id="content" placeholder="Descreva sua tarefa..."></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <i class="fas fa-plus"></i> Adicionar Tarefa
+                        </button>
+                        <button type="button" class="btn btn-secondary hidden" id="cancelEditBtn">
+                            <i class="fas fa-times"></i> Cancelar
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="tasks-container">
+                <div class="tasks-header">
+                    <h2><i class="fas fa-list-check"></i> Minhas Tarefas</h2>
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Buscar tarefas...">
+                        <button class="btn btn-primary" id="refreshBtn">
+                            <i class="fas fa-sync-alt"></i> Atualizar
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="server-status" id="serverStatus">
+                    <div class="status-dot" id="statusDot"></div>
+                    <span id="statusText">Verificando servidor...</span>
+                </div>
+
+                <div class="waking-message hidden" id="wakingMessage">
+                    <i class="fas fa-coffee"></i>
+                    <span>Servidor está acordando... Isso pode levar alguns segundos</span>
+                </div>
+
+                <div class="task-list" id="taskList">
+                    <!-- As tarefas serão carregadas aqui -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <script>
+        // Configurações da API
+        const API_BASE_URL = 'https://go-api-t7tu.onrender.com/tasks';
+
+        // Elementos DOM
+        const taskForm = document.getElementById('taskForm');
+        const titleInput = document.getElementById('title');
+        const contentInput = document.getElementById('content');
+        const submitBtn = document.getElementById('submitBtn');
+        const cancelEditBtn = document.getElementById('cancelEditBtn');
+        const taskList = document.getElementById('taskList');
+        const searchInput = document.getElementById('searchInput');
+        const refreshBtn = document.getElementById('refreshBtn');
+        const notification = document.getElementById('notification');
+        const homeBtn = document.getElementById('homeBtn');
+        const serverStatus = document.getElementById('serverStatus');
+        const statusDot = document.getElementById('statusDot');
+        const statusText = document.getElementById('statusText');
+        const wakingMessage = document.getElementById('wakingMessage');
+
+        // Estado da aplicação
+        let tasks = [];
+        let editingTaskId = null;
+        let isLoading = false;
+        let isServerWaking = false;
+
+        // Inicialização
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTasks();
+            setupEventListeners();
+            checkServerStatus();
+        });
+
+        // Configurar event listeners
+        function setupEventListeners() {
+            taskForm.addEventListener('submit', handleFormSubmit);
+            cancelEditBtn.addEventListener('click', cancelEdit);
+            refreshBtn.addEventListener('click', loadTasks);
+            searchInput.addEventListener('input', filterTasks);
+            homeBtn.addEventListener('click', goToHomepage);
+        }
+
+        // Verificar status do servidor
+        async function checkServerStatus() {
+            try {
+                const response = await fetch(API_BASE_URL, {
+                    method: 'GET',
+                    signal: AbortSignal.timeout(5000) // Timeout de 5 segundos
+                });
+                
+                if (response.ok) {
+                    updateServerStatus('online', 'Servidor online');
+                } else {
+                    updateServerStatus('offline', 'Servidor offline');
+                }
+            } catch (error) {
+                if (error.name === 'TimeoutError') {
+                    updateServerStatus('waking', 'Servidor acordando...');
+                    isServerWaking = true;
+                    wakingMessage.classList.remove('hidden');
+                    
+                    // Tentar novamente após alguns segundos
+                    setTimeout(() => {
+                        checkServerStatus();
+                    }, 3000);
+                } else {
+                    updateServerStatus('offline', 'Servidor offline');
+                }
+            }
+        }
+
+        // Atualizar status do servidor
+        function updateServerStatus(status, message) {
+            statusDot.className = 'status-dot';
+            statusText.textContent = message;
+            
+            switch(status) {
+                case 'online':
+                    statusDot.classList.add('online');
+                    statusDot.style.backgroundColor = 'var(--success)';
+                    wakingMessage.classList.add('hidden');
+                    isServerWaking = false;
+                    break;
+                case 'waking':
+                    statusDot.classList.add('waking');
+                    statusDot.style.backgroundColor = 'var(--warning)';
+                    wakingMessage.classList.remove('hidden');
+                    isServerWaking = true;
+                    break;
+                case 'offline':
+                    statusDot.classList.add('offline');
+                    statusDot.style.backgroundColor = 'var(--danger)';
+                    wakingMessage.classList.add('hidden');
+                    isServerWaking = false;
+                    break;
+            }
+        }
+
+        // Ir para a homepage
+        function goToHomepage() {
+            // Substitua esta URL pela sua homepage real
+            window.location.href = 'https://danielvor.vercel.com';
+            // Ou use este para voltar para a página anterior:
+            // window.history.back();
+        }
+
+        // Carregar tarefas da API
+        async function loadTasks() {
+            if (isLoading) return;
+            
+            isLoading = true;
+            setButtonLoading(refreshBtn, true, 'Atualizando...');
+            
+            try {
+                // Mostrar mensagem de servidor acordando se necessário
+                if (isServerWaking) {
+                    showNotification('Servidor está acordando, aguarde...', 'warning');
+                }
+
+                const response = await fetch(API_BASE_URL);
+                
+                if (!response.ok) {
+                    throw new Error(`Erro ${response.status}: ${response.statusText}`);
+                }
+                
+                tasks = await response.json();
+                renderTasks();
+                updateServerStatus('online', 'Servidor online');
+                showNotification('Tarefas carregadas com sucesso!', 'success');
+            } catch (error) {
+                console.error('Erro ao carregar tarefas:', error);
+                
+                if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
+                    updateServerStatus('waking', 'Servidor acordando...');
+                    isServerWaking = true;
+                    wakingMessage.classList.remove('hidden');
+                    showNotification('Servidor está iniciando. Tente novamente em alguns segundos.', 'warning');
+                    
+                    // Tentar novamente automaticamente após 3 segundos
+                    setTimeout(() => {
+                        loadTasks();
+                    }, 3000);
+                } else {
+                    updateServerStatus('offline', 'Servidor offline');
+                    showNotification('Erro ao carregar tarefas. Verifique a conexão.', 'error');
+                    taskList.innerHTML = `
+                        <div class="empty-state">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h3>Erro ao carregar tarefas</h3>
+                            <p>Verifique sua conexão com a internet</p>
+                            <button class="btn btn-primary" onclick="loadTasks()" style="margin-top: 15px;">
+                                <i class="fas fa-redo"></i> Tentar Novamente
+                            </button>
+                        </div>
+                    `;
+                }
+            } finally {
+                isLoading = false;
+                setButtonLoading(refreshBtn, false, 'Atualizar');
+            }
+        }
+
+        // Manipular envio do formulário
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+            
+            const title = titleInput.value.trim();
+            const content = contentInput.value.trim();
+            
+            if (!title) {
+                showNotification('Por favor, insira um título para a tarefa.', 'error');
+                return;
+            }
+            
+            const taskData = { title, content };
+            
+            if (isLoading) return;
+            isLoading = true;
+            setButtonLoading(submitBtn, true, editingTaskId ? 'Atualizando...' : 'Adicionando...');
+            
+            try {
+                if (editingTaskId) {
+                    // Atualizar tarefa existente
+                    await updateTask(editingTaskId, taskData);
+                    showNotification('Tarefa atualizada com sucesso!', 'success');
+                    cancelEdit();
+                } else {
+                    // Criar nova tarefa
+                    await createTask(taskData);
+                    showNotification('Tarefa criada com sucesso!', 'success');
+                    taskForm.reset();
+                }
+                
+                await loadTasks();
+            } catch (error) {
+                console.error('Erro ao salvar tarefa:', error);
+                
+                if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
+                    showNotification('Servidor não disponível. Tente novamente em alguns segundos.', 'warning');
+                    updateServerStatus('waking', 'Servidor acordando...');
+                } else {
+                    showNotification('Erro ao salvar tarefa. Tente novamente.', 'error');
+                }
+            } finally {
+                isLoading = false;
+                setButtonLoading(submitBtn, false, editingTaskId ? 'Atualizar Tarefa' : 'Adicionar Tarefa');
+            }
+        }
+
+        // Criar nova tarefa
+        async function createTask(taskData) {
+            const response = await fetch(API_BASE_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(taskData),
+            });
+            
+            if (!response.ok) {
+                throw new Error(`Erro ${response.status}: ${response.statusText}`);
+            }
+            
+            return await response.json();
+        }
+
+        // Atualizar tarefa
+        async function updateTask(taskId, taskData) {
+            const response = await fetch(`${API_BASE_URL}/${taskId}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(taskData),
+            });
+            
+            if (!response.ok) {
+                throw new Error(`Erro ${response.status}: ${response.statusText}`);
+            }
+            
+            return await response.json();
+        }
+
+        // Excluir tarefa
+        async function deleteTask(taskId) {
+            if (!confirm('Tem certeza que deseja excluir esta tarefa?')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/${taskId}`, {
+                    method: 'DELETE',
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`Erro ${response.status}: ${response.statusText}`);
+                }
+                
+                showNotification('Tarefa excluída com sucesso!', 'success');
+                await loadTasks();
+            } catch (error) {
+                console.error('Erro ao excluir tarefa:', error);
+                showNotification('Erro ao excluir tarefa. Tente novamente.', 'error');
+            }
+        }
+
+        // Iniciar edição de tarefa
+        function startEditTask(task) {
+            editingTaskId = task.id;
+            titleInput.value = task.title;
+            contentInput.value = task.content || '';
+            
+            submitBtn.innerHTML = '<i class="fas fa-save"></i> Atualizar Tarefa';
+            cancelEditBtn.classList.remove('hidden');
+            
+            titleInput.focus();
+        }
+
+        // Cancelar edição
+        function cancelEdit() {
+            editingTaskId = null;
+            taskForm.reset();
+            
+            submitBtn.innerHTML = '<i class="fas fa-plus"></i> Adicionar Tarefa';
+            cancelEditBtn.classList.add('hidden');
+        }
+
+        // Filtrar tarefas
+        function filterTasks() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const filteredTasks = tasks.filter(task => 
+                task.title.toLowerCase().includes(searchTerm) || 
+                (task.content && task.content.toLowerCase().includes(searchTerm))
+            );
+            
+            renderTasks(filteredTasks);
+        }
+
+        // Renderizar lista de tarefas
+        function renderTasks(tasksToRender = tasks) {
+            if (tasksToRender.length === 0) {
+                taskList.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h3>Nenhuma tarefa encontrada</h3>
+                        <p>${searchInput.value ? 'Tente ajustar os termos da busca' : 'Adicione sua primeira tarefa usando o formulário ao lado'}</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            taskList.innerHTML = tasksToRender.map(task => `
+                <div class="task-item">
+                    <div class="task-header">
+                        <div class="task-title">${escapeHtml(task.title)}</div>
+                        <div class="task-actions">
+                            <button class="btn btn-success btn-edit" data-id="${task.id}">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-danger btn-delete" data-id="${task.id}">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="task-content">${task.content ? escapeHtml(task.content) : '<em>Sem descrição</em>'}</div>
+                </div>
+            `).join('');
+            
+            // Adicionar event listeners aos botões
+            document.querySelectorAll('.btn-edit').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const taskId = btn.getAttribute('data-id');
+                    const task = tasks.find(t => t.id === taskId);
+                    if (task) startEditTask(task);
+                });
+            });
+            
+            document.querySelectorAll('.btn-delete').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const taskId = btn.getAttribute('data-id');
+                    deleteTask(taskId);
+                });
+            });
+        }
+
+        // Mostrar notificação
+        function showNotification(message, type = 'success') {
+            notification.textContent = message;
+            notification.className = `notification ${type} show`;
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 4000);
+        }
+
+        // Definir estado de carregamento do botão
+        function setButtonLoading(button, loading, text = '') {
+            if (loading) {
+                button.disabled = true;
+                if (text) {
+                    button.innerHTML = `<div class="loading"></div> ${text}`;
+                } else {
+                    button.innerHTML = '<div class="loading"></div>';
+                }
+            } else {
+                button.disabled = false;
+                if (text) {
+                    // Restaurar o ícone original baseado no texto
+                    if (text.includes('Atualizar')) {
+                        button.innerHTML = '<i class="fas fa-sync-alt"></i> Atualizar';
+                    } else if (text.includes('Adicionar')) {
+                        button.innerHTML = '<i class="fas fa-plus"></i> Adicionar Tarefa';
+                    } else if (text.includes('Atualizar Tarefa')) {
+                        button.innerHTML = '<i class="fas fa-save"></i> Atualizar Tarefa';
+                    }
+                }
+            }
+        }
+
+        // Escapar HTML para prevenir XSS
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        // Adicionar timeout ao fetch (polyfill)
+        if (!AbortSignal.timeout) {
+            AbortSignal.timeout = function(ms) {
+                const controller = new AbortController();
+                setTimeout(() => controller.abort(new DOMException('TimeoutError', 'TimeoutError')), ms);
+                return controller.signal;
+            };
+        }
+    </script>
+</body>
+</html>
