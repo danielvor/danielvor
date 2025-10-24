@@ -1,15 +1,33 @@
-Software developer in career transition, with academic experience and self-taught experience in developing robust and scalable web applications.
+👋 Hello, I'm Daniel Rodrigues, a Back-End Developer based in São Paulo, Brazil. I'm currently studying Multiplatform Software Development at Fatec Itaquera and I'm passionate about algorithms, programming and data structures in Python, JavaScript, C and C#. I have practical experience in projects involving Django, Express and React, and I am currently exploring the wonders of FastAPI.
 
-Currently studying Systems Analysis and Development at the Instituto Mineiro de Educação Superior, I am proficient in Python, Java, Node.js, and C#.
+🚀 I am committed to continuous learning and am expanding my knowledge of Data Analysis through the Google Career Certificates program, where I am exploring spreadsheets, SQL, R programming and Tableau.
 
-I have a strong understanding of programming logic, software architecture, teamwork tools, and agile methodologies.
+🌐 Check out my portfolio at [dunodaniel.github.io](https://dunodaniel.github.io) and feel free to get in touch via email: this.daniel@outlook.com.
 
-Currently, I am deepening my knowledge in:
+# Experience
+- Teleperformance: Customer Service
+- Atento Brasil: Technical Customer Service Support
+- Otis Elevator Co.: Elevator Maintenance Electromechanical
 
-Back-End: Python, Java, Node.js, and C# (with .NET Core). Front-End: Next.js. Databases: PostgreSQL, MySQL, and MongoDB. Architecture: MVC, Microservices, and Monolithic.
+# Academic education
+- Fatec Itaquera: Multiplatform Software Development, Software Engineering
+- ETEC Martin Luther King: Mechatronics Technician
+- ETEC Tiquatira: Chemistry Technician
+- Barão de Ramalho State School: High School
 
-Want to learn more about what I've been up to? Feel free to explore my repositories and connect with me!
+# Contact
+- 📱 +5511948222885 (Mobile)
+- 📧 this.daniel@outlook.com
 
-- **LinkedIn:** [https://www.linkedin.com/in/danielvictorrodrigues/](https://www.google.com/search?q=https://www.linkedin.com/in/danielvictorrodrigues/)
-- **GitHub:** [https://github.com/DanielVOR](https://www.google.com/search?q=https://github.com/DanielVOR)
-- **Portfólio:** [https://danielvor.onrender.com](https://danielvor.onrender.com)
+# Main Skills
+- Customer Service
+- Computer maintenance
+- Technical documentation
+- Technical Problem Solving
+
+# Languages
+- English (Professional)
+
+# Certifications
+- Microsoft Learn AI Skills Challenge
+- Fundamentals of Technical Support
