@@ -100,9 +100,7 @@ img {
   filter: brightness(0.5);
 }
 
-
 /*========== Variables Dark theme ==========*/
-
 body.dark-theme {
   --hue: 261;
   --sat: 56%;
@@ -111,12 +109,10 @@ body.dark-theme {
   --first-color-alt: hsl(var(--hue), var(--sat), 34%);
   /* -4% */
   --title-color: hsl(var(--hue), 12%, 95%);
-  --text-color: hsl(var(--hue), 12%, 35%);
+  --text-color: hsl(var(--hue), 12%, 75%);
   --body-color: hsl(var(--hue), 20%, 8%);
-  --container-color: hsl(var(--hue), 24%, 92%);
+  --container-color: hsl(var(--hue), 24%, 12%);
 }
-
-
 
 /*========== 
     Color changes in some parts of 
@@ -132,7 +128,7 @@ body.dark-theme {
 
 .dark-theme .filters__content {
   margin: 2rem auto;
-  background-color: var(--text-color);
+  background-color: var(--container-color);
   padding: .37rem;
   border-radius: .75rem;
   display: flex;
@@ -156,7 +152,6 @@ body.dark-theme {
   background-color: transparent;
 }
 
-
 .dark-theme::-webkit-scrollbar {
   background-color: hsl(var(--hue), 8%, 16%);
 }
@@ -168,7 +163,6 @@ body.dark-theme {
 .dark-theme::-webkit-scrollbar-thumb:hover {
   background-color: hsl(var(--hue), 8%, 32%);
 }
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
