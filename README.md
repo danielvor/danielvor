@@ -1,33 +1,29 @@
-👋 Hello, I'm Daniel Rodrigues, a Back-End Developer based in São Paulo, Brazil. I'm currently studying Multiplatform Software Development at Fatec Itaquera and I'm passionate about algorithms, programming and data structures in Python, JavaScript, C and C#. I have practical experience in projects involving Django, Express and React, and I am currently exploring the wonders of FastAPI.
+👋 Olá! Eu sou Daniel Victor De Oliveira Rodrigues
 
-🚀 I am committed to continuous learning and am expanding my knowledge of Data Analysis through the Google Career Certificates program, where I am exploring spreadsheets, SQL, R programming and Tableau.
+Sobre mim
 
-🌐 Check out my portfolio at [dunodaniel.github.io](https://dunodaniel.github.io) and feel free to get in touch via email: this.daniel@outlook.com.
+💼 Cargo: Analista de Atendimento Jr
+📍 Localização: São Paulo, SP
+🎯 Apaixonado por tecnologia, atendimento ao cliente e soluções digitais que melhoram a experiência do usuário.
+🌱 Atualmente aprendendo automação de processos, Python e boas práticas para desenvolvimento colaborativo.
+🔍 Interesse em análise de dados, integração de sistemas e ferramentas de produtividade.
 
-# Experience
-- Teleperformance: Customer Service
-- Atento Brasil: Technical Customer Service Support
-- Otis Elevator Co.: Elevator Maintenance Electromechanical
 
-# Academic education
-- Fatec Itaquera: Multiplatform Software Development, Software Engineering
-- ETEC Martin Luther King: Mechatronics Technician
-- ETEC Tiquatira: Chemistry Technician
-- Barão de Ramalho State School: High School
+Habilidades
 
-# Contact
-- 📱 +5511948222885 (Mobile)
-- 📧 this.daniel@outlook.com
+Linguagens: Python (iniciante), SQL, HTML/CSS
+Ferramentas: Git, GitHub, Excel Avançado, Power BI
+Soft Skills: Comunicação clara, resolução de problemas, foco em experiência do cliente
 
-# Main Skills
-- Customer Service
-- Computer maintenance
-- Technical documentation
-- Technical Problem Solving
 
-# Languages
-- English (Professional)
+Projetos
 
-# Certifications
-- Microsoft Learn AI Skills Challenge
-- Fundamentals of Technical Support
+📊 Dashboard de Atendimento: Análise de métricas de SLA e satisfação do cliente usando Power BI.
+🔄 Automação de Tarefas: Scripts simples em Python para otimizar processos internos.
+🌐 Site Pessoal: Página estática com HTML/CSS para portfólio.
+
+
+Contato
+
+📧 Email: [this.daniel@outlook.com]
+🔗 LinkedIn: [linkedin.com/in/danielvor]
