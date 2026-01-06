@@ -1,88 +1,48 @@
+# Olá, eu sou o Daniel Victor! 👋
 
+### Backend Software Engineer (Early Career) | ADS @ IMES 
 
-## 📖 Sobre Mim
- Sou um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.            
-Tenho experiências com atendimento ao cliente, aprendi a ser analítico, organizado e proativo.
-Estou me aprofundando em Node.js, Python, Go, .NET e Java, sou determinado e aprendo rápido. 
-Almejo uma empresa que me ofereça o ambiente ideal para aplicar minha paixão e dedicação por tecnologia.
+Sou um entusiasta de engenharia de software focado em construir sistemas robustos, escaláveis e de alta performance. Atualmente, estou cursando **Análise e Desenvolvimento de Sistemas** e aprofundando meus conhecimentos em sistemas distribuídos e infraestrutura moderna.
 
+Minha meta é projetar soluções que suportem milhões de usuários, seguindo os padrões de grandes empresas como iFood e Databricks.
 
-## 🚀 Portfólio de APIs RESTful
+---
 
-Este é um projeto pessoal que desenvolvi como desenvolvedor full stack, com o objetivo de praticar e demonstrar minha capacidade de construir e integrar diferentes APIs RESTful com base de dados MongoDB usando várias linguagens de programação e frameworks modernos.
+### 🛠 No que estou trabalhando:
+* 🚀 Construindo APIs RESTful escaláveis com **Java, Python e Go**.
+* 🏗️ Estudando arquitetura de **Microserviços** e sistemas orientados a eventos.
+* 💾 Otimizando bancos de dados **SQL e NoSQL** para alta performance.
+* ☁️ Explorando ecossistemas Cloud (**AWS/GCP**) e orquestração com **Docker/Kubernetes**.
 
-## 💡 Sobre o Projeto
+### 🧪 Skills & Tech Stack:
+- **Linguagens:** Java, Python, Go, Scala.
+- **Backend:** Node.js, Spring Boot, FastAPI.
+- **Bancos de Dados:** PostgreSQL, MySQL, MongoDB, Redis (Caching).
+- **Infra:** Docker, Kubernetes, CI/CD, Git.
+- **Conceitos:** Clean Code, Design Patterns, SOLID, System Design.
 
-Criei este portfólio interativo com **Next.js (App Router)**, onde é possível testar, via interface web, 5 APIs CRUD diferentes que desenvolvi. Todas utilizam a mesma estrutura de dados no MongoDB (título e conteúdo de tarefas) e estão conectadas à mesma coleção `tasks` no banco de dados `todo_db`.
+---
 
-As APIs foram implementadas em:
+### 📊 Estatísticas e Certificações:
+- 🎓 Cursando ADS na **Faculdade IMES**.
+- 🏆 Aprendizado contínuo via **freeCodeCamp**.
+- 🌐 Confira meu portfólio: [danielvor.vercel.app](https://danielvor.vercel.app)
 
-* 🐍 **Python** com FastAPI + Beanie
-* 🟩 **Node.js** com Express + Mongoose
-* ☕ **Java** com Spring Boot
-* 🦠 **Go** com Gin
-* 🎯 **C#** com .NET Web API
+---
 
-Cada uma delas possui as rotas de `GET`, `POST`, `PUT` e `DELETE` funcionando para gerenciar tarefas.
+### 📫 Vamos nos conectar?
+- **LinkedIn:** [@danielvor](https://linkedin.com/in/danielvor)
+- **E-mail:** [oliveira0196@gmail.com](mailto:oliveira0196@gmail.com)
+- **WhatsApp:** [+55 11 49482-2885](https://wa.me/5511494822885)
 
-## 🔍 Funcionalidades
+---
 
-* Interface unificada para testar qualquer uma das APIs
-* Integração com MongoDB via Mongoose (no backend Node.js)
-* Criação, listagem, atualização e exclusão de tarefas
-* Slugs dinâmicos no Next.js (`/python`, `/go`, `/nodejs`, etc.)
-* Uso de Tailwind CSS para estilo simples e responsivo
-* Backend hospedado em serviços como Render e Railway
-* Código limpo, com mensagens de erro claras e feedbacks visuais
+### ⚡ Curiosidade:
+Acredito que um bom código backend é aquele que é invisível: de tão eficiente e rápido, o usuário nem percebe que ele existe.
 
-## 🎯 Objetivo
+---
 
-Meu principal objetivo com este projeto foi:
-
-* Aprender e comparar como diferentes linguagens/libraries implementam o mesmo tipo de API
-* Consolidar conhecimento em integração entre frontend (Next.js) e APIs externas
-* Construir um portfólio técnico funcional que posso evoluir e apresentar em processos seletivos
-
-## 🚀 Como usar
-
-1. Acesse o projeto rodando localmente (`npm run dev`)
-2. Navegue até `/go`, `/python`, `/nodejs`, etc.
-3. Crie, edite ou delete tarefas para testar a integração
-4. Veja a comunicação em tempo real com a API da linguagem escolhida
-
-## ⚙️ Tecnologias Utilizadas
-
-### Frontend
-
-* Next.js 14 (App Router)
-* Tailwind CSS
-* TypeScript
-
-### Backend (em múltiplas versões)
-
-* Node.js + Express + Mongoose
-* Python + FastAPI + Beanie
-* Go + Gin
-* Java + Spring Boot
-* C# + ASP.NET Core Web API
-
-### Banco de dados
-
-* MongoDB Atlas (cluster gratuito)
-
-## 📚 Aprendizados
-* Integração de frontend com múltiplas APIs
-* Comparação de implementações de APIs em diferentes linguagens
-* Melhoria na organização de código e estrutura de pastas
-* Uso de ferramentas modernas como Tailwind CSS e Next.js App Router
-* Prática com deploy em serviços como Render
-* Melhoria na experiência do usuário com feedbacks visuais
-* Resolução de problemas comuns em APIs RESTful
-
-## 📫 Contato
-Se você tiver alguma dúvida, sugestão ou quiser discutir sobre o projeto, sinta-se à vontade para entrar em contato comigo:
-* Email: oliveira0196@gmail.com
-* LinkedIn: [Daniel Oliveira](https://www.linkedin.com/in/danielvor)
-
-## 📝 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=danielvor&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielvor&layout=compact&theme=radical" alt="Top Languages" />
+</div>

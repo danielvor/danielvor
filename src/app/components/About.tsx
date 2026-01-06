@@ -8,7 +8,7 @@ import { MoveRight } from 'lucide-react'
 export const About = () => {
   return (
     <SectionContainer id="about" title="Sobre mim">
-      <div className="flex items-center justify-between md:justify-center">
+      <div className="flex h-screen flex-col items-center justify-center gap-6 md:flex-row md:items-center md:justify-between">
         <MotionDiv
           initial={{ opacity: 0, x: -24 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -17,13 +17,60 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Sou um estudante de Análise e Desenvolvimento de Sistemas em transição de carreira para o desenvolvimento de software.            
-            Tenho experiências com atendimento ao cliente, aprendi a ser analítico, organizado e proativo.
+            Atualmente graduando em Análise e Desenvolvimento de Sistemas, aplico conhecimentos em linguagens como
+            Java, Python e Go para construir APIs escaláveis, robustas e de alta performance.
           </p>
+
           <p>
-            Estou me aprofundando em Node.js, Python, Go, .NET e Java, sou determinado e aprendo rápido. 
-            Almejo uma empresa que me ofereça o ambiente ideal para aplicar minha paixão e dedicação por tecnologia.
+            Tenho forte interesse em otimização de bancos de dados, infraestrutura em nuvem (AWS/GCP/AZURE)
+            e metodologias ágeis, visando impactar grandes bases de usuários como visto em empresas
+            de tecnologia de ponta.
           </p>
+
+          <MotionDiv
+            initial={{ opacity: 0, y: 8 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.8, duration: 0.3 }}
+            className="mt-2"
+          >
+            <h4 className="text-2xl font-semibold">Formação Acadêmica</h4>
+            <ul className="mt-2 text-left list-inside list-disc pl-4">
+              <li>Graduação em Análise e Desenvolvimento de Sistemas (ADS) – Faculdade IMES (Em andamento)</li>
+              <li>Certificações em Desenvolvimento de Software – freeCodeCamp (Em andamento/Concluído)</li>
+            </ul>
+          </MotionDiv>
+
+          <MotionDiv
+            initial={{ opacity: 0, y: 8 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.95, duration: 0.3 }}
+            className="mt-4"
+          >
+            <h4 className="text-2xl font-semibold">Competências Técnicas</h4>
+            <ul className="mt-2 grid gap-2 text-left sm:grid-cols-1 md:grid-cols-2">
+              <li>
+                <strong>Linguagens:</strong> Java, Python, Go (estudos focados em Backend)
+              </li>
+              <li>
+                <strong>Arquitetura & APIs:</strong> Design de APIs RESTful, Microserviços, SOA
+              </li>
+              <li>
+                <strong>Bancos de Dados:</strong> SQL (PostgreSQL/MySQL), NoSQL (MongoDB/Redis)
+              </li>
+              <li>
+                <strong>Cloud & Infra:</strong> Fundamentos AWS/GCP, Docker, Kubernetes
+              </li>
+              <li>
+                <strong>Ferramentas:</strong> Git/GitHub, CI/CD, Testes Unitários, Caching, Load Balancing
+              </li>
+              <li>
+                <strong>Metodologias:</strong> Scrum, Kanban, Clean Code
+              </li>
+            </ul>
+          </MotionDiv>
+
           <MotionDiv className="flex justify-start md:justify-center">
             <Link
               href="#contact"
@@ -33,30 +80,7 @@ export const About = () => {
             </Link>
           </MotionDiv>
         </MotionDiv>
-        <MotionDiv
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5, duration: 0.3 }}
-          className="flex flex-1 justify-end pl-8 md:hidden"
-        >
-          <div className="w-80 pb-10">
-            <div className="flex flex-wrap justify-center gap-4 opacity-70">
-              <span className="h-3 w-48 rounded-full bg-target"></span>
-              <span className="h-3 w-32 rounded-full bg-secondaryHover"></span>
-              <span className="h-3 w-20 rounded-full bg-target"></span>
-              <span className="h-3 w-28 rounded-full bg-target"></span>
-              <span className="h-3 w-14 rounded-full bg-secondaryHover"></span>
-              <span className="h-3 w-20 rounded-full bg-target"></span>
-              <span className="h-3 w-32 rounded-full bg-target"></span>
-              <span className="h-3 w-32 rounded-full bg-secondaryHover"></span>
-              <span className="h-3 w-32 rounded-full bg-secondaryHover"></span>
-              <span className="h-3 w-20 rounded-full bg-target"></span>
-              <span className="h-3 w-28 rounded-full bg-target"></span>
-              <span className="h-3 w-14 rounded-full bg-secondaryHover"></span>
-            </div>
-          </div>
-        </MotionDiv>
+        
       </div>
     </SectionContainer>
   )

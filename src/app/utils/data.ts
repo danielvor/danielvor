@@ -1,8 +1,8 @@
 export const navigationLinks = [
   { label: 'Início', path: '#home' },
   { label: 'Sobre mim', path: '#about' },
-  { label: 'Projetos', path: '#projects' },
-  { label: 'Habilidades', path: '#skills' },
+  // { label: 'Projetos', path: '#projects' },
+  // { label: 'Habilidades', path: '#skills' },
   { label: 'Contato', path: '#contact' }
 ]
 
